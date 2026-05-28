@@ -428,9 +428,9 @@
       "home_count": 9,
       "total_liens_outstanding": 63976.62,
       "total_rehab_in_pipeline": 15000,
-      "total_projected_sale_proceeds": 82500,
+      "total_projected_sale_proceeds": 111500,
       "total_net_reserve_needed": 0,
-      "homes_missing_projected_sale": 7
+      "homes_missing_projected_sale": 6
     },
     "homes": [
       {
@@ -479,8 +479,8 @@
         "sub_status": "Sell Only",
         "lien_amount": 17227.5,
         "rehab_cost": 0,
-        "projected_sale_price": null,
-        "net_reserve_needed": null,
+        "projected_sale_price": 29000,
+        "net_reserve_needed": 0,
         "notes": "Jessica Rienquist financing underway. Lien to Vincent. Source: Ops May 25, Forecast tab"
       },
       {
