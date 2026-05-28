@@ -429,5 +429,107 @@
     "<strong>Home sales pipeline has several active situations.</strong> CP:9 Corey is finance pending, waiting on the 21st Century code from Beth. FS1:74 has multiple applicants and a potential close by June 1. FS2:01 (Jessica Rienquist) has financing underway. FS1:17 and FS2:53 are in make-ready and expected to list in June at $25K. CP:58 Powerline is listing this week at $35K. The $250K home sales shortfall through May remains the primary driver of GRP's cash constraints and payroll pressure.",
     "<strong>The PEP loan payoff on CP:2125 Patricia</strong> ($28K estimated with title and repo fees) is on the obligations list. No decision yet on pay off versus bridge through Vincent. GRP payroll runs again in approximately two weeks. With GRP projected at $773 after this week, the WW closings and any sales that close in the first week of June are the primary cash bridge. Recommend confirming the FS intercompany transfer source, the PEP decision, and payroll funding in Thursday's meeting."
   ],
-  "recap_notes": []
+  "recap_notes": [],
+  "home_obligations": {
+    "summary": {
+      "home_count": 9,
+      "total_liens_outstanding": 80884.0,
+      "total_rehab_in_pipeline": 15000,
+      "total_projected_sale_proceeds": 82500,
+      "total_net_reserve_needed": 0,
+      "homes_missing_projected_sale": 7
+    },
+    "homes": [
+      {
+        "home_id": "WW:6D",
+        "status": "Pending Sale",
+        "sub_status": "Sell Only",
+        "lien_amount": 7828.5,
+        "rehab_cost": 0,
+        "projected_sale_price": 36500,
+        "net_reserve_needed": 0,
+        "notes": "Signed purchase agreement. Missouri title 7-14 business days from May 25. Closing week of June 1-8. Source: L10 May 27"
+      },
+      {
+        "home_id": "WW:18A",
+        "status": "Pending Sale",
+        "sub_status": "Sell Only",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 46000,
+        "net_reserve_needed": 0,
+        "notes": "Signed purchase agreement pending title return. Source: Ops May 25"
+      },
+      {
+        "home_id": "WW:3G",
+        "status": "Pending Sale",
+        "sub_status": "Consignment Sale",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Triad consignment. Bradley Berry wants to close, Triad slow on loan approval. GRP receives 10% commission. Source: Ops May 25"
+      },
+      {
+        "home_id": "CP:9Corey",
+        "status": "Pending Sale",
+        "sub_status": "Pending",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Break even per Beth. Finance pending, waiting on 21st Century code. Source: Ops May 25 + Beth"
+      },
+      {
+        "home_id": "FS2:01",
+        "status": "Listed",
+        "sub_status": "Sell Only",
+        "lien_amount": 17227.5,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Jessica Rienquist financing underway. Lien to Vincent. Source: Ops May 25, Forecast tab"
+      },
+      {
+        "home_id": "FS1:74",
+        "status": "Listed",
+        "sub_status": "Rent or Sell",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Quiet title journal entry back, now listable. Multiple applicants, potential close June 1. Source: Ops May 25"
+      },
+      {
+        "home_id": "FS2:029",
+        "status": "Make Ready",
+        "sub_status": "Final Inspections",
+        "lien_amount": 19740.12,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Rehab complete, relisting this week after punch list. Lien to Vincent. Source: Tracker v5, Forecast tab"
+      },
+      {
+        "home_id": "FS2:047",
+        "status": "Make Ready",
+        "sub_status": "Bid Received",
+        "lien_amount": 19180.5,
+        "rehab_cost": 15000,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Rehab bid received $15,000. Lien to Vincent. Source: Tracker v5, Forecast tab"
+      },
+      {
+        "home_id": "CA:2033W3rd",
+        "status": "Make Ready",
+        "sub_status": "Sell Only",
+        "lien_amount": 16907.38,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Juan Cardoza property. Rehab in progress, GRP to renegotiate purchase price when complete. Lien on title. Source: Ops May 18, L10 May 27"
+      }
+    ]
+  }
 }
