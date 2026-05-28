@@ -211,26 +211,19 @@
   ],
   "other_obligations": {
     "summary": {
-      "item_count": 10,
-      "total_needed": 255056.0,
+      "item_count": 9,
+      "total_needed": 223656.0,
       "total_reserved": 0,
-      "total_unfunded": 255056.0,
+      "total_unfunded": 223656.0,
       "reserve_coverage_pct": 0.0
     },
     "items": [
       {
-        "description": "FS Floodplain removal \u2014 FS1 (60 units)",
-        "amount_needed": 30000,
+        "description": "FS Floodplain removal \u2014 potential remaining balance",
+        "amount_needed": 6600,
         "amount_reserved": 0,
         "due_date": null,
-        "funding_plan": "Nearing completion per May 27 L10. Payments this week through FS. FS funding gap requires intercompany transfer \u2014 source TBD in Thursday meeting."
-      },
-      {
-        "description": "FS Floodplain removal \u2014 FS2 (16 units)",
-        "amount_needed": 8000,
-        "amount_reserved": 0,
-        "due_date": null,
-        "funding_plan": ""
+        "funding_plan": "One remaining potential bill. Source: Beth"
       },
       {
         "description": "PEP Loan payoff \u2014 CP: 2125 Patricia (William Garrett voluntary surrender)",
@@ -433,7 +426,7 @@
   "home_obligations": {
     "summary": {
       "home_count": 9,
-      "total_liens_outstanding": 80884.0,
+      "total_liens_outstanding": 63976.62,
       "total_rehab_in_pipeline": 15000,
       "total_projected_sale_proceeds": 82500,
       "total_net_reserve_needed": 0,
@@ -524,7 +517,7 @@
         "home_id": "CA:2033W3rd",
         "status": "Make Ready",
         "sub_status": "Sell Only",
-        "lien_amount": 16907.38,
+        "lien_amount": 0,
         "rehab_cost": 0,
         "projected_sale_price": null,
         "net_reserve_needed": null,
