@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "week_ending": "2026-05-29",
+    "prepared_by": "Beth Dandini",
+    "historical": false
+  },
+  "entities": [
+    {
+      "name": "Country Aire",
+      "code": "CA",
+      "bank_balance": 4356.9,
+      "available": 4234.84,
+      "payments": 250.0,
+      "deposits": 0,
+      "projected": 3984.84
+    },
+    {
+      "name": "Countryside",
+      "code": "CP",
+      "bank_balance": 29962.03,
+      "available": 28106.48,
+      "payments": 1279.54,
+      "deposits": 0,
+      "projected": 26826.94
+    },
+    {
+      "name": "Decade Acres",
+      "code": "DA",
+      "bank_balance": 17988.07,
+      "available": 17441.49,
+      "payments": 0,
+      "deposits": 0,
+      "projected": 17441.49
+    },
+    {
+      "name": "Four Seasons",
+      "code": "FS",
+      "bank_balance": 12493.37,
+      "available": 10998.1,
+      "payments": 34884.75,
+      "deposits": 0,
+      "projected": -23886.65
+    },
+    {
+      "name": "Golden Rule Practices",
+      "code": "GRP",
+      "bank_balance": 15952.06,
+      "available": 4580.92,
+      "payments": 3807.43,
+      "deposits": 0,
+      "projected": 773.49
+    },
+    {
+      "name": "Group Group",
+      "code": "GG",
+      "bank_balance": 49377.75,
+      "available": 49377.75,
+      "payments": 45000.0,
+      "deposits": 0,
+      "projected": 4377.75
+    },
+    {
+      "name": "Riverside Estates",
+      "code": "RE",
+      "bank_balance": 9861.93,
+      "available": 9861.93,
+      "payments": 4900.0,
+      "deposits": 0,
+      "projected": 4961.93
+    },
+    {
+      "name": "RMF",
+      "code": "RMF",
+      "bank_balance": 5494.72,
+      "available": 4854.72,
+      "payments": 0,
+      "deposits": 0,
+      "projected": 4854.72
+    },
+    {
+      "name": "Winterwood",
+      "code": "WW",
+      "bank_balance": 8813.39,
+      "available": 8813.39,
+      "payments": 1275.0,
+      "deposits": 0,
+      "projected": 7538.39
+    }
+  ],
+  "payables": [
+    {
+      "vendor": "Genesis Lawn",
+      "amount": 250.0,
+      "memo": "CA Landscaping Service Date: 05/19",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 829.54,
+      "memo": "CP: 22 Waterway Diagnose sewer system issues",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Hummel Tree Service",
+      "amount": 450.0,
+      "memo": "CP Tree Maintenance - Already paid online",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "National Flood Experts",
+      "amount": 2200.0,
+      "memo": "Tim has invoices",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "National Flood Experts",
+      "amount": 32450.0,
+      "memo": "Tim has invoices",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 109.75,
+      "memo": "Service Call Manhole full",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "The Zervice Co",
+      "amount": 125.0,
+      "memo": "Commercial mower rental",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Bookkeeping By Beth",
+      "amount": 1551.2,
+      "memo": "55.40 Hours",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 1480.0,
+      "memo": "CP: 75 JPride New ACoil",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 163.73,
+      "memo": "CP: 2121 Patricia Diagnose, troubleshoot, and repair HVAC system concerns",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Joshuah Muse",
+      "amount": 612.5,
+      "memo": "WW: 5E Labor",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Tim Distribution",
+      "amount": 45000.0,
+      "memo": "Tim Distribution",
+      "entity": "GG",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Hummel Tree Service",
+      "amount": 4900.0,
+      "memo": "RE Tree Maintenance - Already paid online",
+      "entity": "RE",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Jeff House",
+      "amount": 325.0,
+      "memo": "5.18.26-5.24.26",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Kodey Gilpin",
+      "amount": 950.0,
+      "memo": "Park Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    }
+  ],
+  "other_obligations": {
+    "summary": {
+      "item_count": 10,
+      "total_needed": 255056.0,
+      "total_reserved": 0,
+      "total_unfunded": 255056.0,
+      "reserve_coverage_pct": 0.0
+    },
+    "items": [
+      {
+        "description": "FS Floodplain removal \u2014 FS1 (60 units)",
+        "amount_needed": 30000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Nearing completion per May 27 L10. Payments this week through FS. FS funding gap requires intercompany transfer \u2014 source TBD in Thursday meeting."
+      },
+      {
+        "description": "FS Floodplain removal \u2014 FS2 (16 units)",
+        "amount_needed": 8000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": ""
+      },
+      {
+        "description": "PEP Loan payoff \u2014 CP: 2125 Patricia (William Garrett voluntary surrender)",
+        "amount_needed": 28000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "On floor plan. Will need to be paid off to secure title. Options include paying off directly or bridging through Vincent until home sells. Decision pending."
+      },
+      {
+        "description": "2008 W 3rd \u2014 Vincent lien release",
+        "amount_needed": 16000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Exact amount to be verified when Vincent returns to office next week."
+      },
+      {
+        "description": "2033 W 3rd (Juan Cardoza) \u2014 home purchase",
+        "amount_needed": 35000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Price TBD after rehab completion. GRP to renegotiate."
+      },
+      {
+        "description": "WW: 6D Lien release to Vincent",
+        "amount_needed": 7828.5,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Signed purchase agreement in hand. Missouri title expected 7-14 business days from May 25."
+      },
+      {
+        "description": "FS2: 024 Lien release to Vincent",
+        "amount_needed": 16000,
+        "amount_reserved": 0,
+        "due_date": "2026-04-30",
+        "funding_plan": "Hold funds from sale income. Due date passed \u2014 confirm status."
+      },
+      {
+        "description": "FS2: 01 Lien release to Vincent",
+        "amount_needed": 17227.5,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Pay lien after sale is closed."
+      },
+      {
+        "description": "Tim Feb Distribution",
+        "amount_needed": 45000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "On auto-pay out of Group Group this week."
+      },
+      {
+        "description": "Trent Distribution",
+        "amount_needed": 52000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": ""
+      }
+    ]
+  },
+  "budget_vs_actual": {
+    "month_label": "May 2026",
+    "days_in_month": 31,
+    "day_of_report": 29,
+    "pct_through": 94,
+    "entities": [
+      {
+        "name": "Country Aire",
+        "income_budget": 24075,
+        "income_actual": 18000.46,
+        "income_pace": 19242,
+        "income_variance_pct": -20.1,
+        "income_flag": true,
+        "expense_budget": 15551,
+        "expense_actual": 17417.29,
+        "expense_pace": 18618,
+        "expense_variance_pct": 19.7,
+        "expense_flag": true
+      },
+      {
+        "name": "Countryside",
+        "income_budget": 126312,
+        "income_actual": 98445.3,
+        "income_pace": 105246,
+        "income_variance_pct": -16.7,
+        "income_flag": true,
+        "expense_budget": 49731.55,
+        "expense_actual": 46993.28,
+        "expense_pace": 50234,
+        "expense_variance_pct": 1.0,
+        "expense_flag": false
+      },
+      {
+        "name": "Decade Acres",
+        "income_budget": 22283,
+        "income_actual": 21731.58,
+        "income_pace": 23230,
+        "income_variance_pct": 4.2,
+        "income_flag": false,
+        "expense_budget": 8782,
+        "expense_actual": 6551.14,
+        "expense_pace": 7003,
+        "expense_variance_pct": -20.3,
+        "expense_flag": false
+      },
+      {
+        "name": "Four Seasons",
+        "income_budget": 48609,
+        "income_actual": 39012.65,
+        "income_pace": 41706,
+        "income_variance_pct": -14.2,
+        "income_flag": false,
+        "expense_budget": 12992,
+        "expense_actual": 17770.72,
+        "expense_pace": 18990,
+        "expense_variance_pct": 46.2,
+        "expense_flag": true
+      },
+      {
+        "name": "Golden Rule Practices",
+        "income_budget": 58369,
+        "income_actual": 38660.05,
+        "income_pace": 41319,
+        "income_variance_pct": -29.2,
+        "income_flag": true,
+        "expense_budget": 71947,
+        "expense_actual": 25899.0,
+        "expense_pace": 27692,
+        "expense_variance_pct": -61.5,
+        "expense_flag": false
+      },
+      {
+        "name": "Riverside Estates",
+        "income_budget": 25194,
+        "income_actual": 19205.7,
+        "income_pace": 20542,
+        "income_variance_pct": -18.5,
+        "income_flag": true,
+        "expense_budget": 12069,
+        "expense_actual": 18910.35,
+        "expense_pace": 20209,
+        "expense_variance_pct": 67.5,
+        "expense_flag": true
+      },
+      {
+        "name": "RMF",
+        "income_budget": 8894,
+        "income_actual": 3759.0,
+        "income_pace": 4018,
+        "income_variance_pct": -54.8,
+        "income_flag": true,
+        "expense_budget": 6374,
+        "expense_actual": 3152.99,
+        "expense_pace": 3370,
+        "expense_variance_pct": -47.1,
+        "expense_flag": false
+      },
+      {
+        "name": "Winterwood",
+        "income_budget": 47790,
+        "income_actual": 39071.0,
+        "income_pace": 41785,
+        "income_variance_pct": -12.6,
+        "income_flag": false,
+        "expense_budget": 24292,
+        "expense_actual": 20036.7,
+        "expense_pace": 21426,
+        "expense_variance_pct": -11.8,
+        "expense_flag": false
+      }
+    ]
+  },
+  "monthly_outlook": {
+    "month_label": "May 2026",
+    "budgeted_spend": 201738.55,
+    "actual_to_date": 156731.47,
+    "expected_remaining": 45007.08,
+    "expected_income": 21850,
+    "income_notes": "GRP: $15,850 received 2008 W 3rd sale (CA). $6,000 received FS1:19. Both already in bank. Larry Reding paid $5,640 from FS1:19 proceeds.",
+    "projected_eom_cash": 46872.9
+  },
+  "cfo_summary": [
+    "<strong>Total available cash is $138,270</strong> across all nine entities. After <strong>$91,397 in approved external payments</strong> this week, projected end-of-week balance is <strong>$46,873</strong>. The Tim Distribution of $45,000 comes out of Group Group this week and represents the largest single outflow.",
+    "<strong>Four Seasons projects to negative $23,887.</strong> The two National Flood Experts invoices totaling $34,650 are the floodplain removal project nearing completion. FS available balance of $10,998 cannot cover this. A transfer from Decade Acres ($17,441 available) or Countryside ($26,827 available) is needed. Recommend deciding the source in Thursday's meeting before these payments go out.",
+    "<strong>GRP projects to $773</strong> after $3,807 in approved bills. Two deposits totaling $21,850 hit GRP this week \u2014 $15,850 from the 2008 W 3rd sale and $6,000 from FS1:19 \u2014 but the $13K in payroll that was unresolved last week already hit the bank and consumed those proceeds. Larry Reding was paid $5,640 from the FS1:19 deposit. GRP is effectively running on fumes and still carries $52K Trent distribution and the Tim distribution on the obligations list.",
+    "<strong>Six of eight entities have BvA flags this month.</strong> The most critical are RMF income pacing 55% under budget, GRP income pacing 29% under budget driven by the home sales shortfall of $250K through May, and Riverside Estates expenses pacing 68% over budget. Four Seasons expense overage of 46% is tied to the floodplain work this week. Country Aire is flagged on both income and expense.",
+    "<strong>The PEP loan on CP: 2125 Patricia</strong> has been added to obligations at $28,000. William Garrett is voluntarily surrendering this home and the payoff is needed to secure title before resale. No decision made yet on whether to pay off directly or bridge through Vincent. The FS2: 024 lien release due date of April 30 has passed \u2014 confirm status with Vincent when he returns."
+  ],
+  "for_ownership": {
+    "label": "Projected end-of-week cash",
+    "number": 46873,
+    "paragraph": "We close this week at roughly $47K available across all accounts after $91K in external payments including the Tim distribution and the floodplain removal invoices at Four Seasons. GRP received $21,850 in home sale proceeds this week but those funds were absorbed by the $13K payroll shortfall that carried from last week, leaving GRP at under $1,000 projected. Four Seasons is projected negative $24K because the flood plane invoices exceed its available balance and we need to move money from Decade Acres or Countryside to cover it. The biggest discussion item Thursday is where the FS transfer comes from and when the WW-6D and WW-18A closings land to start rebuilding GRP cash."
+  },
+  "forecast": [
+    "<strong>WW-6D is the most certain near-term cash event.</strong> A signed purchase agreement is in hand and the Missouri title is in process, expected within 7 to 14 business days from May 25. Closing likely lands the week of June 1 to 8. WW-18A also has a signed purchase agreement pending title. These two closings will bring in cash and trigger the corresponding Vincent lien releases when they clear.",
+    "<strong>The floodplain removal project at FS is nearing completion</strong> at approximately $500 per unit across 76 total units ($30K for FS1, $8K for FS2). The bulk of the FS1 payment went out this week. Once complete, this eliminates over $1,000 per unit annually in floodplain insurance and improves the portfolio's refinancing position. The open lot insurance renewal is due early to mid June and coverage is being right-sized downward based on the May 27 L10 review.",
+    "<strong>Home sales pipeline has several active situations.</strong> CP:9 Corey is finance pending, waiting on the 21st Century code from Beth. FS1:74 has multiple applicants and a potential close by June 1. FS2:01 (Jessica Rienquist) has financing underway. FS1:17 and FS2:53 are in make-ready and expected to list in June at $25K. CP:58 Powerline is listing this week at $35K. The $250K home sales shortfall through May remains the primary driver of GRP's cash constraints and payroll pressure.",
+    "<strong>The PEP loan payoff on CP:2125 Patricia</strong> ($28K estimated with title and repo fees) is on the obligations list. No decision yet on pay off versus bridge through Vincent. GRP payroll runs again in approximately two weeks. With GRP projected at $773 after this week, the WW closings and any sales that close in the first week of June are the primary cash bridge. Recommend confirming the FS intercompany transfer source, the PEP decision, and payroll funding in Thursday's meeting."
+  ],
+  "recap_notes": []
+}
