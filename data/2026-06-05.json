@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "week_ending": "2026-06-05",
+    "prepared_by": "Beth Dandini",
+    "historical": false
+  },
+  "entities": [
+    {
+      "name": "Country Aire",
+      "code": "CA",
+      "bank_balance": 15763.22,
+      "available": 914.93,
+      "payments": 1389.9,
+      "deposits": 0,
+      "projected": -474.97
+    },
+    {
+      "name": "Countryside",
+      "code": "CP",
+      "bank_balance": 76195.6,
+      "available": 27785.66,
+      "payments": 28449.89,
+      "deposits": 0,
+      "projected": -664.23
+    },
+    {
+      "name": "Decade Acres",
+      "code": "DA",
+      "bank_balance": 26882.6,
+      "available": 26882.6,
+      "payments": 3592.8,
+      "deposits": 0,
+      "projected": 23289.8
+    },
+    {
+      "name": "Four Seasons",
+      "code": "FS",
+      "bank_balance": 36960.8,
+      "available": 36048.53,
+      "payments": 6193.5,
+      "deposits": 0,
+      "projected": 29855.03
+    },
+    {
+      "name": "Golden Rule Practices",
+      "code": "GRP",
+      "bank_balance": 5265.75,
+      "available": -15838.6,
+      "payments": 13425.86,
+      "deposits": 0,
+      "projected": -29264.46
+    },
+    {
+      "name": "Group Group",
+      "code": "GG",
+      "bank_balance": 4377.75,
+      "available": 4377.75,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 4377.75
+    },
+    {
+      "name": "Riverside Estates",
+      "code": "RE",
+      "bank_balance": 22850.85,
+      "available": 14417.2,
+      "payments": 5175.3,
+      "deposits": 0,
+      "projected": 9241.9
+    },
+    {
+      "name": "RMF",
+      "code": "RMF",
+      "bank_balance": 7113.68,
+      "available": 4698.36,
+      "payments": 701.1,
+      "deposits": 0,
+      "projected": 3997.26
+    },
+    {
+      "name": "Winterwood",
+      "code": "WW",
+      "bank_balance": 26797.07,
+      "available": 3839.13,
+      "payments": 11503.17,
+      "deposits": 0,
+      "projected": -7664.04
+    }
+  ],
+  "payables": [
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 1139.9,
+      "memo": "Open Lot Portion: 9.52% of $11,969",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Genesis Lawn",
+      "amount": 250.0,
+      "memo": "CA Landscaping Service Date: 05/26",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Golden Rule Practices LLC",
+      "amount": 1760.8,
+      "memo": "CA [JUN] 2026 Management Fee",
+      "entity": "CA",
+      "status": "hold",
+      "intercompany": true
+    },
+    {
+      "vendor": "Brockman Lawn Care",
+      "amount": 1800.0,
+      "memo": "CP Lawn Care and Maintenance",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 829.54,
+      "memo": "2172 Patricia Sewer is backed up \u00ad Cleanout is at the skirting edge",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "DeHart Plumbing",
+      "amount": 3007.25,
+      "memo": "2174 Pat Sewer",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "EIG (Eddys Insurance Group)",
+      "amount": 11969.0,
+      "memo": "Full Open Lot Premium",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Golden Rule Practices LLC",
+      "amount": 10719.1,
+      "memo": "CP [JUN] 2026 Management Fee",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "The Zervice Co",
+      "amount": 125.0,
+      "memo": "June 2026 Services",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 1139.9,
+      "memo": "Open Lot Portion: 9.52% of $11,969",
+      "entity": "DA",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Golden Rule Practices LLC",
+      "amount": 2452.9,
+      "memo": "DA [JUN] 2026 Management Fee",
+      "entity": "DA",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Brockman Lawn Care",
+      "amount": 1350.0,
+      "memo": "FS Lawn Care and Maintenance",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Golden Rule Practices LLC",
+      "amount": 4843.5,
+      "memo": "FS [JUN] 2026 Management Fee",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "National Flood Experts",
+      "amount": 2200.0,
+      "memo": "Tim has invoices",
+      "entity": "FS",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "National Flood Experts",
+      "amount": 32450.0,
+      "memo": "Tim has invoices",
+      "entity": "FS",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "Bookkeeping By Beth",
+      "amount": 1154.44,
+      "memo": "41.23 Hours",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 417.05,
+      "memo": "FS2: 030 Diagnose, troubleshoot, and repair HVAC system concerns.",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Joshuah Muse",
+      "amount": 560.0,
+      "memo": "WW: 5E Labor",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Kodey Gilpin",
+      "amount": 800.0,
+      "memo": "WW: 5E Labor",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Royal Supply",
+      "amount": 494.37,
+      "memo": "FS2: 033 Materials",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "The Zervice Co",
+      "amount": 10000.0,
+      "memo": "June 2026 Services",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Golden Rule Practices LLC",
+      "amount": 701.1,
+      "memo": "RMF [JUN] 2026 Management Fee",
+      "entity": "RMF",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Brockman Lawn Care",
+      "amount": 1650.0,
+      "memo": "RE Lawn Care and Maintenance",
+      "entity": "RE",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 1139.9,
+      "memo": "Open Lot Portion: 9.52% of $11,969",
+      "entity": "RE",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Golden Rule Practices LLC",
+      "amount": 2385.4,
+      "memo": "RE [JUN] 2026 Management Fee",
+      "entity": "RE",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 3989.67,
+      "memo": "Open Lot Portion: 33% of $11,969",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "David Walker",
+      "amount": 2470.0,
+      "memo": "WW: 10E Electric Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Golden Rule Practices LLC",
+      "amount": 4508.5,
+      "memo": "WW [JUN] 2026 Management Fee",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Jeff House",
+      "amount": 310.0,
+      "memo": "5.25.26-5.31.26",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Jerry Nichols",
+      "amount": 225.0,
+      "memo": "Park Cleaning",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    }
+  ],
+  "other_obligations": {
+    "summary": {
+      "item_count": 9,
+      "total_needed": 223656.0,
+      "total_reserved": 0,
+      "total_unfunded": 223656.0,
+      "reserve_coverage_pct": 0.0
+    },
+    "items": [
+      {
+        "description": "FS Floodplain removal \u2014 potential remaining balance",
+        "amount_needed": 6600,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Invoices on hold pending Tim approval. Two National Flood Experts invoices ($2,200 and $32,450) remain on hold from prior week."
+      },
+      {
+        "description": "PEP Loan payoff \u2014 CP: 2125 Patricia (William Garrett voluntary surrender)",
+        "amount_needed": 28000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "On floor plan. Decision pending \u2014 pay off directly or bridge through Vincent until home sells."
+      },
+      {
+        "description": "2008 W 3rd \u2014 Vincent lien release",
+        "amount_needed": 16000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Verify exact amount when Vincent returns to office."
+      },
+      {
+        "description": "2033 W 3rd (Juan Cardoza) \u2014 home purchase",
+        "amount_needed": 35000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Price TBD after rehab completion. GRP to renegotiate."
+      },
+      {
+        "description": "WW: 6D Lien release to Vincent",
+        "amount_needed": 7828.5,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Signed purchase agreement in hand. Missouri title expected 7-14 business days from May 25. Closing week of June 1-8."
+      },
+      {
+        "description": "FS2: 024 Lien release to Vincent",
+        "amount_needed": 16000,
+        "amount_reserved": 0,
+        "due_date": "2026-04-30",
+        "funding_plan": "Hold funds from sale income. Due date passed \u2014 confirm status with Vincent."
+      },
+      {
+        "description": "FS2: 01 Lien release to Vincent",
+        "amount_needed": 17227.5,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Pay lien after sale is closed. FS2:01 financing underway with Jessica Rienquist."
+      },
+      {
+        "description": "Tim Distribution",
+        "amount_needed": 45000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Paid out of Group Group. Confirm whether June distribution is scheduled."
+      },
+      {
+        "description": "Trent Distribution",
+        "amount_needed": 52000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": ""
+      }
+    ]
+  },
+  "home_obligations": {
+    "summary": {
+      "home_count": 9,
+      "total_liens_outstanding": 63976.62,
+      "total_rehab_in_pipeline": 15000,
+      "total_projected_sale_proceeds": 111500,
+      "total_net_reserve_needed": 0,
+      "homes_missing_projected_sale": 6
+    },
+    "homes": [
+      {
+        "home_id": "WW:6D",
+        "status": "Pending Sale",
+        "sub_status": "Sell Only",
+        "lien_amount": 7828.5,
+        "rehab_cost": 0,
+        "projected_sale_price": 36500,
+        "net_reserve_needed": 0,
+        "notes": "Signed purchase agreement. Missouri title 7-14 business days from May 25. Closing week of June 1-8."
+      },
+      {
+        "home_id": "WW:18A",
+        "status": "Pending Sale",
+        "sub_status": "Sell Only",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 46000,
+        "net_reserve_needed": 0,
+        "notes": "Signed purchase agreement pending title return."
+      },
+      {
+        "home_id": "WW:3G",
+        "status": "Pending Sale",
+        "sub_status": "Consignment Sale",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Triad consignment. Bradley Berry wants to close, Triad slow on loan approval. GRP receives 10% commission."
+      },
+      {
+        "home_id": "FS2:01",
+        "status": "Listed",
+        "sub_status": "Sell Only",
+        "lien_amount": 17227.5,
+        "rehab_cost": 0,
+        "projected_sale_price": 29000,
+        "net_reserve_needed": 0,
+        "notes": "Jessica Rienquist financing underway. Lien to Vincent at closing. Net to GRP: $11,772."
+      },
+      {
+        "home_id": "FS1:74",
+        "status": "Listed",
+        "sub_status": "Rent or Sell",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Multiple applicants, potential close June 1."
+      },
+      {
+        "home_id": "FS2:029",
+        "status": "Make Ready",
+        "sub_status": "Final Inspections",
+        "lien_amount": 19740.12,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Rehab complete, relisting after punch list. Lien to Vincent."
+      },
+      {
+        "home_id": "FS2:047",
+        "status": "Make Ready",
+        "sub_status": "Bid Received",
+        "lien_amount": 19180.5,
+        "rehab_cost": 15000,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Rehab bid received $15,000. Lien to Vincent."
+      },
+      {
+        "home_id": "CA:2033W3rd",
+        "status": "Make Ready",
+        "sub_status": "Sell Only",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Juan Cardoza property. Rehab in progress, GRP to renegotiate purchase price when complete."
+      },
+      {
+        "home_id": "CP:2125Patricia",
+        "status": "Make Ready",
+        "sub_status": "Voluntary Surrender",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "William Garrett voluntary surrender. PEP loan payoff ~$28K needed to secure title. Decision pending."
+      }
+    ]
+  },
+  "budget_vs_actual": null,
+  "monthly_outlook": null,
+  "cfo_summary": [
+    "<strong>Total available cash is $103,126</strong> across all nine entities. After <strong>$37,412 in approved external payments</strong> this week, projected end-of-week balance is <strong>$32,694</strong>. An additional <strong>$33,020 in intercompany transfers</strong> moves internally this week, primarily June management fees across all entities.",
+    "<strong>Four entities project negative this week.</strong> GRP carries the largest gap at negative $29,264 \u2014 the available balance was already negative $15,839 before bills due to pending transactions, and $13,426 in approved payments widen that further. Country Aire projects to negative $475 and Countryside to negative $664 after the open lot insurance allocation. Winterwood projects to negative $7,664 after its open lot share plus maintenance bills. All four require intercompany transfers to cover \u2014 Decade Acres at $23,290 and Four Seasons at $29,855 are the logical funding sources.",
+    "<strong>The June management fees are all flowing this week</strong> as intercompany transfers totaling $27,211 across CP, DA, FS, RE, RMF, and WW into GRP. The CA management fee of $1,761 is on hold. These transfers partially offset GRP's negative position but are not enough given the size of the pending transaction gap.",
+    "<strong>The open lot insurance premium of $11,969</strong> is being paid from Countryside this week and allocated across WW (33%), RE (9.52%), CA (9.52%), and DA (9.52%) as intercompany charges. This is the insurance renewal discussed in the May 27 L10.",
+    "<strong>No BvA this week</strong> \u2014 P&L export was not available. BvA will resume next week. The WW closings and FS2:01 financing remain the primary near-term cash events to watch. The two National Flood Experts invoices ($34,650 total) remain on hold pending Tim's approval."
+  ],
+  "for_ownership": {
+    "label": "Projected end-of-week cash",
+    "number": 32694,
+    "paragraph": "We close this week at roughly $33K available across all accounts after $37K in external payments and $33K in internal management fee transfers. Four entities project negative this week \u2014 GRP carries the largest gap at negative $29K driven by pending transactions already in the bank, and Winterwood, Country Aire, and Countryside are also thin after the open lot insurance allocation. Decade Acres and Four Seasons are the strongest positions and are the likely funding sources for the intercompany transfers needed to cover the gaps. The WW home closings remain the most important near-term cash event for rebuilding GRP."
+  },
+  "forecast": [
+    "<strong>WW:6D remains the highest confidence near-term closing.</strong> The signed purchase agreement is in hand and Missouri title was requested 7 to 14 business days from May 25, putting the expected closing window at the week of June 5 to 12. WW:18A also has a signed purchase agreement with title pending. Combined these two closings bring in $82,500 gross and $74,672 net after the WW:6D Vincent lien release.",
+    "<strong>FS2:01 financing is underway</strong> with Jessica Rienquist at a sale price of $29,000. After the $17,228 Vincent lien release at closing, net to GRP is $11,772. No meeting notes this week \u2014 status unchanged from May 29.",
+    "<strong>GRP payroll is due in approximately one week.</strong> With GRP projected negative $29,264 after this week, the WW closings are the only near-term bridge. If closings do not land before payroll, an intercompany transfer from Decade Acres or Four Seasons will be required to cover.",
+    "<strong>Open items requiring decisions:</strong> The PEP loan on CP:2125 Patricia ($28K) remains unresolved \u2014 pay off or bridge through Vincent. The two National Flood Experts invoices ($34,650) are on hold pending Tim's approval. The FS2:024 Vincent lien ($16,000) is past due as of April 30 and needs confirmation when Vincent returns."
+  ],
+  "recap_notes": []
+}
