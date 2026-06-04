@@ -332,9 +332,9 @@
   "other_obligations": {
     "summary": {
       "item_count": 9,
-      "total_needed": 223656.0,
+      "total_needed": 223242.19,
       "total_reserved": 0,
-      "total_unfunded": 223656.0,
+      "total_unfunded": 223242.19,
       "reserve_coverage_pct": 0.0
     },
     "items": [
@@ -354,7 +354,7 @@
       },
       {
         "description": "2008 W 3rd \u2014 Vincent lien release",
-        "amount_needed": 16000,
+        "amount_needed": 15586.19,
         "amount_reserved": 0,
         "due_date": null,
         "funding_plan": "Verify exact amount when Vincent returns to office."
