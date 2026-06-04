@@ -10,9 +10,9 @@
       "code": "CA",
       "bank_balance": 15763.22,
       "available": 914.93,
-      "payments": 1389.9,
+      "payments": 250.0,
       "deposits": 0,
-      "projected": -474.97
+      "projected": 664.93
     },
     {
       "name": "Countryside",
@@ -20,8 +20,8 @@
       "bank_balance": 76195.6,
       "available": 27785.66,
       "payments": 28449.89,
-      "deposits": 0,
-      "projected": -664.23
+      "deposits": 6269.47,
+      "projected": 5605.24
     },
     {
       "name": "Decade Acres",
@@ -47,8 +47,8 @@
       "bank_balance": 5265.75,
       "available": -15838.6,
       "payments": 13425.86,
-      "deposits": 0,
-      "projected": -29264.46
+      "deposits": 25610.5,
+      "projected": -3653.96
     },
     {
       "name": "Group Group",
@@ -93,7 +93,7 @@
       "amount": 1139.9,
       "memo": "Open Lot Portion: 9.52% of $11,969",
       "entity": "CA",
-      "status": "approved",
+      "status": "hold",
       "intercompany": true
     },
     {
@@ -508,16 +508,15 @@
   "budget_vs_actual": null,
   "monthly_outlook": null,
   "cfo_summary": [
-    "<strong>Total available cash is $103,126</strong> across all nine entities. After <strong>$37,412 in approved external payments</strong> this week, projected end-of-week balance is <strong>$32,694</strong>. An additional <strong>$33,020 in intercompany transfers</strong> moves internally this week, primarily June management fees across all entities.",
-    "<strong>Four entities project negative this week.</strong> GRP carries the largest gap at negative $29,264 \u2014 the available balance was already negative $15,839 before bills due to pending transactions, and $13,426 in approved payments widen that further. Country Aire projects to negative $475 and Countryside to negative $664 after the open lot insurance allocation. Winterwood projects to negative $7,664 after its open lot share plus maintenance bills. All four require intercompany transfers to cover \u2014 Decade Acres at $23,290 and Four Seasons at $29,855 are the logical funding sources.",
-    "<strong>The June management fees are all flowing this week</strong> as intercompany transfers totaling $27,211 across CP, DA, FS, RE, RMF, and WW into GRP. The CA management fee of $1,761 is on hold. These transfers partially offset GRP's negative position but are not enough given the size of the pending transaction gap.",
-    "<strong>The open lot insurance premium of $11,969</strong> is being paid from Countryside this week and allocated across WW (33%), RE (9.52%), CA (9.52%), and DA (9.52%) as intercompany charges. This is the insurance renewal discussed in the May 27 L10.",
-    "<strong>No BvA this week</strong> \u2014 P&L export was not available. BvA will resume next week. The WW closings and FS2:01 financing remain the primary near-term cash events to watch. The two National Flood Experts invoices ($34,650 total) remain on hold pending Tim's approval."
+    "<strong>Total available cash is $103,126</strong> across all nine entities. After <strong>$37,412 in approved external payments</strong> and <strong>$33,020 in intercompany transfers</strong> this week, projected end-of-week balance is <strong>$65,714</strong>. The intercompany transfers include June management fees flowing into GRP ($25,611) and open lot insurance allocations flowing into CP ($7,409).",
+    "<strong>GRP projects to $-3,654</strong> after receiving $25,611 in management fee deposits, partially offset by $13,426 in external payments and a starting available balance of negative $15,839 from pending transactions. <strong>Countryside projects to $6,745</strong> after paying the full open lot premium ($11,969) and receiving back $7,409 in allocations from WW, RE, CA, and DA.",
+    "<strong>Winterwood projects to negative $7,664</strong> after its open lot allocation ($3,990), management fee ($4,509), and maintenance bills ($2,780). Country Aire projects to negative $475 after its open lot share and landscaping. Both need intercompany support. Decade Acres at $23,290 and Four Seasons at $29,855 are the strongest positions and the logical funding sources.",
+    "<strong>No BvA this week</strong> \u2014 P&L export was not available. BvA will resume next week. The WW closings and FS2:01 financing remain the primary near-term cash events. The two National Flood Experts invoices ($34,650 total) remain on hold pending Tim's approval."
   ],
   "for_ownership": {
     "label": "Projected end-of-week cash",
-    "number": 32694,
-    "paragraph": "We close this week at roughly $33K available across all accounts after $37K in external payments and $33K in internal management fee transfers. Four entities project negative this week \u2014 GRP carries the largest gap at negative $29K driven by pending transactions already in the bank, and Winterwood, Country Aire, and Countryside are also thin after the open lot insurance allocation. Decade Acres and Four Seasons are the strongest positions and are the likely funding sources for the intercompany transfers needed to cover the gaps. The WW home closings remain the most important near-term cash event for rebuilding GRP."
+    "number": 65714.0,
+    "paragraph": "We close this week at roughly $65,714 available across all accounts after $37K in external payments and $33K in internal management fee and insurance transfers. GRP projects to $-3,654 after receiving June management fees from all properties \u2014 still negative due to pending transactions already in the bank that precede this week. Winterwood and Country Aire are also thin after their open lot insurance shares and need intercompany support from Decade Acres or Four Seasons. The WW home closings remain the most important near-term cash event for rebuilding GRP."
   },
   "forecast": [
     "<strong>WW:6D remains the highest confidence near-term closing.</strong> The signed purchase agreement is in hand and Missouri title was requested 7 to 14 business days from May 25, putting the expected closing window at the week of June 5 to 12. WW:18A also has a signed purchase agreement with title pending. Combined these two closings bring in $82,500 gross and $74,672 net after the WW:6D Vincent lien release.",
