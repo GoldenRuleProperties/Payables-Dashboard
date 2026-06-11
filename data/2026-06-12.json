@@ -251,10 +251,10 @@
   ],
   "other_obligations": {
     "summary": {
-      "item_count": 5,
-      "total_needed": 83878.02,
+      "item_count": 4,
+      "total_needed": 76049.52,
       "total_reserved": 0,
-      "total_unfunded": 83878.02,
+      "total_unfunded": 76049.52,
       "reserve_coverage_pct": 0.0
     },
     "items": [
@@ -264,13 +264,6 @@
         "amount_reserved": 0,
         "due_date": null,
         "funding_plan": "Confirmed amount $15,586.19."
-      },
-      {
-        "description": "WW: 6D Lien release to Vincent",
-        "amount_needed": 7828.5,
-        "amount_reserved": 0,
-        "due_date": null,
-        "funding_plan": "Closing expected week of June 5-12. Confirm status."
       },
       {
         "description": "FS2: 024 Lien release to Vincent",
@@ -298,7 +291,7 @@
   "home_obligations": {
     "summary": {
       "home_count": 11,
-      "total_liens_outstanding": 63976.62,
+      "total_liens_outstanding": 56148.12,
       "total_rehab_in_pipeline": 0,
       "total_projected_sale_proceeds": 188500,
       "total_net_reserve_needed": 0,
@@ -329,7 +322,7 @@
         "home_id": "WW:6D",
         "status": "Pending Sale",
         "sub_status": "Sell Only",
-        "lien_amount": 7828.5,
+        "lien_amount": 0,
         "rehab_cost": 0,
         "projected_sale_price": 36500,
         "net_reserve_needed": 0,
