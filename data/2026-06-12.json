@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "week_ending": "2026-06-12",
+    "prepared_by": "Beth Dandini",
+    "historical": false
+  },
+  "entities": [
+    {
+      "name": "Country Aire",
+      "code": "CA",
+      "bank_balance": 22823.19,
+      "available": 7974.9,
+      "payments": 2010.8,
+      "deposits": 0,
+      "projected": 5964.1
+    },
+    {
+      "name": "Countryside",
+      "code": "CP",
+      "bank_balance": 85662.4,
+      "available": 81275.85,
+      "payments": 1325.0,
+      "deposits": 0,
+      "projected": 79950.85
+    },
+    {
+      "name": "Decade Acres",
+      "code": "DA",
+      "bank_balance": 32796.7,
+      "available": 31656.8,
+      "payments": 50.0,
+      "deposits": 0,
+      "projected": 31606.8
+    },
+    {
+      "name": "Four Seasons",
+      "code": "FS",
+      "bank_balance": 35233.76,
+      "available": 25903.8,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 25903.8
+    },
+    {
+      "name": "Golden Rule Practices",
+      "code": "GRP",
+      "bank_balance": 40776.98,
+      "available": 35480.54,
+      "payments": 6781.0,
+      "deposits": 1760.8,
+      "projected": 30460.34
+    },
+    {
+      "name": "Group Group",
+      "code": "GG",
+      "bank_balance": 4377.75,
+      "available": 4377.75,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 4377.75
+    },
+    {
+      "name": "Riverside Estates",
+      "code": "RE",
+      "bank_balance": 20555.49,
+      "available": 17044.59,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 17044.59
+    },
+    {
+      "name": "RMF",
+      "code": "RMF",
+      "bank_balance": 8445.31,
+      "available": 5854.99,
+      "payments": 3450.0,
+      "deposits": 0,
+      "projected": 2404.99
+    },
+    {
+      "name": "Winterwood",
+      "code": "WW",
+      "bank_balance": 39857.23,
+      "available": 16899.29,
+      "payments": 1270.0,
+      "deposits": 0,
+      "projected": 15629.29
+    }
+  ],
+  "payables": [
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 1139.9,
+      "memo": "Open Lot Portion: 9.52% of $11,969",
+      "entity": "CA",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "Genesis Lawn",
+      "amount": 250.0,
+      "memo": "Service Date: 06/03",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Golden Rule Practices LLC",
+      "amount": 1760.8,
+      "memo": "CA [JUN] 2026 Management Fee",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "EIG (Eddys Insurance Group)",
+      "amount": 11969.0,
+      "memo": "Full Open Lot Premium",
+      "entity": "CP",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "Empire Underground",
+      "amount": 1200.0,
+      "memo": "30 Waterway Removed root blanket from manhole",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "The Zervice Co",
+      "amount": 125.0,
+      "memo": "Commercial mower rental",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Mowery Home Repair LLC",
+      "amount": 50.0,
+      "memo": "Mowing vacant units DA 31 and DA57",
+      "entity": "DA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "EIG (Eddys Insurance Group)",
+      "amount": 8198.0,
+      "memo": "FS open lot policy",
+      "entity": "FS",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "Alycca Towery",
+      "amount": 100.0,
+      "memo": "CP: 58 Powerline  cleaning of home",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Alycca Towery",
+      "amount": 150.0,
+      "memo": "CP: 2125 Patricia cleaning of home",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Alycca Towery",
+      "amount": 100.0,
+      "memo": "FS2: 028 Cleaning of home",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Alycca Towery",
+      "amount": 100.0,
+      "memo": "FS1: 17 Cleaning Home",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Alycca Towery",
+      "amount": 150.0,
+      "memo": "FS2: 029 Cleaning Home",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Bookkeeping By Beth",
+      "amount": 1232.0,
+      "memo": "44 Hours",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 3946.0,
+      "memo": "FS2: 040 Install Condenser",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 329.25,
+      "memo": "CP: 65  Emery Sewer back up  This unit does not have a clean out.",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Joshuah Muse",
+      "amount": 673.75,
+      "memo": "Park Maintenance",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Mr. Sans Remodeling LLC",
+      "amount": 3450.0,
+      "memo": "Western Remodeling",
+      "entity": "RMF",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Jeff House",
+      "amount": 345.0,
+      "memo": "6.1.26-6.7.26",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Kodey Gilpin",
+      "amount": 925.0,
+      "memo": "Park Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    }
+  ],
+  "other_obligations": {
+    "summary": {
+      "item_count": 8,
+      "total_needed": 139784.92,
+      "total_reserved": 0,
+      "total_unfunded": 139784.92,
+      "reserve_coverage_pct": 0.0
+    },
+    "items": [
+      {
+        "description": "FS Floodplain removal \u2014 potential remaining balance",
+        "amount_needed": 6600,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Two National Flood Experts invoices ($2,200 and $32,450) remain on hold pending Tim approval."
+      },
+      {
+        "description": "PEP Loan payoff \u2014 CP: 2125 Patricia (William Garrett voluntary surrender)",
+        "amount_needed": 28000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "On floor plan. Condenser replacement ($3,946) approved this week as separate repair cost. Payoff decision still pending."
+      },
+      {
+        "description": "2008 W 3rd \u2014 Vincent lien release",
+        "amount_needed": 15586.19,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Confirmed amount $15,586.19."
+      },
+      {
+        "description": "WW: 6D Lien release to Vincent",
+        "amount_needed": 7828.5,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Closing expected week of June 5-12. Confirm status."
+      },
+      {
+        "description": "FS2: 024 Lien release to Vincent",
+        "amount_needed": 16000,
+        "amount_reserved": 0,
+        "due_date": "2026-04-30",
+        "funding_plan": "Due date passed. Confirm status with Vincent."
+      },
+      {
+        "description": "FS2: 01 Lien release to Vincent",
+        "amount_needed": 17227.5,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "FS2:01 financing underway with Jessica Rienquist. Pay lien at closing."
+      },
+      {
+        "description": "Open lot insurance premiums \u2014 held",
+        "amount_needed": 21306.9,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "CP $11,969 + CA $1,140 + FS $8,198 all on hold. Approve when cash position allows."
+      },
+      {
+        "description": "Trent Distribution",
+        "amount_needed": 27235.83,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": ""
+      }
+    ]
+  },
+  "home_obligations": {
+    "summary": {
+      "home_count": 11,
+      "total_liens_outstanding": 63976.62,
+      "total_rehab_in_pipeline": 0,
+      "total_projected_sale_proceeds": 188500,
+      "total_net_reserve_needed": 0,
+      "homes_missing_projected_sale": 5
+    },
+    "homes": [
+      {
+        "home_id": "CP:44Waterway",
+        "status": "Pending Sale",
+        "sub_status": "Vanderbilt Approved",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 27000,
+        "net_reserve_needed": 0,
+        "notes": "Buyer approved through Vanderbilt up to $27K. Price raised from $25K. Title pending from state. No rehab needed \u2014 saves ~$14K. Source: Ops Jun 8"
+      },
+      {
+        "home_id": "CP:2141Patricia",
+        "status": "Pending Sale",
+        "sub_status": "Vanderbilt Approved",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 25000,
+        "net_reserve_needed": 0,
+        "notes": "Diana Mayo \u2014 Vanderbilt zero down, excellent credit. Park approved. Picked up by Sochi within days of return. Source: Ops Jun 8"
+      },
+      {
+        "home_id": "WW:6D",
+        "status": "Pending Sale",
+        "sub_status": "Sell Only",
+        "lien_amount": 7828.5,
+        "rehab_cost": 0,
+        "projected_sale_price": 36500,
+        "net_reserve_needed": 0,
+        "notes": "Signed purchase agreement. Missouri title expected \u2014 closing week of June 5-12. Confirm status."
+      },
+      {
+        "home_id": "WW:18A",
+        "status": "Pending Sale",
+        "sub_status": "Sell Only",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 46000,
+        "net_reserve_needed": 0,
+        "notes": "Signed purchase agreement pending title return."
+      },
+      {
+        "home_id": "FS2:01",
+        "status": "Listed",
+        "sub_status": "Financing Underway",
+        "lien_amount": 17227.5,
+        "rehab_cost": 0,
+        "projected_sale_price": 29000,
+        "net_reserve_needed": 0,
+        "notes": "Jessica Rienquist financing underway. Lien to Vincent at closing. Net to GRP: $11,772."
+      },
+      {
+        "home_id": "FS1:17",
+        "status": "Listed",
+        "sub_status": "Application Approved",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 25000,
+        "net_reserve_needed": 0,
+        "notes": "Application approved as of June 8. Financing link sent. Expected to move to pending quickly. Source: Ops Jun 8"
+      },
+      {
+        "home_id": "FS2:28",
+        "status": "Listed",
+        "sub_status": "Listing This Week",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Rehab complete. Final cleaning by Alyssa. Listing this week. Source: Ops Jun 8"
+      },
+      {
+        "home_id": "FS2:29",
+        "status": "Listed",
+        "sub_status": "Listing This Week",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Rehab complete. Final cleaning by Alyssa. Listing this week. Source: Ops Jun 8"
+      },
+      {
+        "home_id": "FS2:029",
+        "status": "Make Ready",
+        "sub_status": "Final Inspections",
+        "lien_amount": 19740.12,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Relisting after punch list. Lien to Vincent."
+      },
+      {
+        "home_id": "FS2:047",
+        "status": "Make Ready",
+        "sub_status": "Bid Received",
+        "lien_amount": 19180.5,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Rehab bid $15K. Lien to Vincent. Condenser install ($3,946) approved this week at FS2:040."
+      },
+      {
+        "home_id": "FS2:3",
+        "status": "Make Ready",
+        "sub_status": "Vacating End of June",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Burglary incident June 7. Tenant Nathaniel Foreman not renewing. Lease expires end of June. Will come back as make-ready. Source: Ops Jun 8"
+      }
+    ]
+  },
+  "budget_vs_actual": null,
+  "monthly_outlook": null,
+  "cfo_summary": [
+    "<strong>Total available cash is $226,469</strong> across all nine entities. After <strong>$13,126 in approved external payments</strong> and <strong>$1,761 in intercompany transfers</strong> this week, projected end-of-week balance is <strong>$213,343</strong>. This is the strongest cash position in several weeks driven by the WW closings and CP sales landing in the bank.",
+    "<strong>GRP projects to $30,460</strong> after receiving the CA management fee and paying $6,781 in maintenance and cleaning bills. GRP's available balance of $35,481 reflects the recovery from last week's negative position \u2014 the WW:6D and WW:18A closings appear to have funded through. Confirm with Beth that both WW closings have cleared.",
+    "<strong>Three homes are listing this week</strong> per the June 8 ops meeting \u2014 FS1:17 (application already approved), FS2:28, and FS2:29. FS1:17 is the highest probability near-term close. CP:44 Waterway and CP:2141 Patricia are both pending sale through Vanderbilt with approvals in hand.",
+    "<strong>RMF projects to $2,405 (thin)</strong> after the $3,450 Western Remodeling payment. No action needed this week but flag for next week if no deposits come in. <strong>Group Group projects to $4,378 (thin)</strong> \u2014 no payments out but no deposits in. The June Tim distribution has not appeared in this week's bills.",
+    "<strong>Open lot premiums ($21,307 total) remain on hold</strong> \u2014 CP $11,969, CA $1,140, and FS $8,198. With CP projecting to $79,951 and DA at $31,607 there is capacity to approve these. Recommend discussing in Thursday's meeting whether to approve the open lot payments now or continue holding.",
+    "<strong>No BvA or Monthly Outlook this week</strong> \u2014 P&L export not uploaded. BvA will resume next week."
+  ],
+  "for_ownership": {
+    "label": "Projected end-of-week cash",
+    "number": 213343.0,
+    "paragraph": "We close this week at roughly $213,343 available across all accounts after $13,126 in external payments. This is a significant improvement from recent weeks reflecting the WW home closings and CP sales proceeds now in the bank. Three more homes are listing this week at Four Seasons and one application is already approved. The open lot insurance premiums of $21K remain on hold and will need to be approved once the cash position is confirmed stable. RMF and Group Group are the only thin entities this week."
+  },
+  "forecast": [
+    "<strong>CP:44 Waterway and CP:2141 Patricia are both pending sale through Vanderbilt</strong> with approvals in hand. Waterway is at $27K (title pending from state), and Patricia is Diana Mayo at $25K with zero down. Xochitl picked both up within her first two weeks back from leave. Both expected to close in June.",
+    "<strong>FS1:17 has an approved application as of June 8</strong> and the financing link was sent. Expected to move to pending sale quickly at $25K. FS2:28 and FS2:29 are listing this week after final cleaning \u2014 both rehab complete. FS2:01 financing continues with Jessica Rienquist at $29K.",
+    "<strong>RE:43 demolition timeline revised</strong> \u2014 To Do Property Cleanup is not available until mid-July. Utility disconnect request to City of Wamego should go out approximately July 1. This is a cost avoidance item, not a cash inflow.",
+    "<strong>CP:9 Corey remains pending</strong> \u2014 waiting on Beth to provide the 21st Century financing code. Tenants are in the home and ready to buy. This is flagged as overdue in the June 8 action items. <strong>FS2:3 will come back as make-ready</strong> at end of June after tenant Nathaniel Foreman vacates following the burglary incident.",
+    "<strong>Open lot premiums ($21,307) and Trent distribution ($52,000) remain the two largest unfunded obligations.</strong> With the portfolio cash position improving, recommend confirming the open lot approval and Trent distribution timing in Thursday's meeting."
+  ],
+  "recap_notes": []
+}
