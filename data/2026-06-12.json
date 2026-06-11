@@ -219,7 +219,7 @@
     {
       "vendor": "Joshuah Muse",
       "amount": 673.75,
-      "memo": "Park Maintenance",
+      "memo": "WW: 5E Labor",
       "entity": "GRP",
       "status": "approved",
       "intercompany": false
@@ -251,27 +251,13 @@
   ],
   "other_obligations": {
     "summary": {
-      "item_count": 8,
-      "total_needed": 139784.92,
+      "item_count": 5,
+      "total_needed": 83878.02,
       "total_reserved": 0,
-      "total_unfunded": 139784.92,
+      "total_unfunded": 83878.02,
       "reserve_coverage_pct": 0.0
     },
     "items": [
-      {
-        "description": "FS Floodplain removal \u2014 potential remaining balance",
-        "amount_needed": 6600,
-        "amount_reserved": 0,
-        "due_date": null,
-        "funding_plan": "Two National Flood Experts invoices ($2,200 and $32,450) remain on hold pending Tim approval."
-      },
-      {
-        "description": "PEP Loan payoff \u2014 CP: 2125 Patricia (William Garrett voluntary surrender)",
-        "amount_needed": 28000,
-        "amount_reserved": 0,
-        "due_date": null,
-        "funding_plan": "On floor plan. Condenser replacement ($3,946) approved this week as separate repair cost. Payoff decision still pending."
-      },
       {
         "description": "2008 W 3rd \u2014 Vincent lien release",
         "amount_needed": 15586.19,
@@ -299,13 +285,6 @@
         "amount_reserved": 0,
         "due_date": null,
         "funding_plan": "FS2:01 financing underway with Jessica Rienquist. Pay lien at closing."
-      },
-      {
-        "description": "Open lot insurance premiums \u2014 held",
-        "amount_needed": 21306.9,
-        "amount_reserved": 0,
-        "due_date": null,
-        "funding_plan": "CP $11,969 + CA $1,140 + FS $8,198 all on hold. Approve when cash position allows."
       },
       {
         "description": "Trent Distribution",
