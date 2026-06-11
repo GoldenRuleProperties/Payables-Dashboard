@@ -46,9 +46,9 @@
       "code": "GRP",
       "bank_balance": 40776.98,
       "available": 35480.54,
-      "payments": 6781.0,
+      "payments": 16781.0,
       "deposits": 1760.8,
-      "projected": 30460.34
+      "projected": 20460.34
     },
     {
       "name": "Group Group",
@@ -245,6 +245,14 @@
       "amount": 925.0,
       "memo": "Park Maintenance",
       "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Chase",
+      "amount": 10000.0,
+      "memo": "CC Payment",
+      "entity": "GRP",
       "status": "approved",
       "intercompany": false
     }
