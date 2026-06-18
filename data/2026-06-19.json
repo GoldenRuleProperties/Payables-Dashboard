@@ -19,9 +19,9 @@
       "code": "CP",
       "bank_balance": 70437.61,
       "available": 68248.61,
-      "payments": 24676.25,
+      "payments": 15669.0,
       "deposits": 1139.9,
-      "projected": 44712.26
+      "projected": 53719.51
     },
     {
       "name": "Decade Acres",
@@ -37,18 +37,18 @@
       "code": "FS",
       "bank_balance": 16524.3,
       "available": 16524.3,
-      "payments": 9194.0,
+      "payments": 1005.0,
       "deposits": 0,
-      "projected": 7330.3
+      "projected": 15519.3
     },
     {
       "name": "Golden Rule Practices",
       "code": "GRP",
       "bank_balance": 18890.97,
       "available": -20381.13,
-      "payments": 3654.36,
+      "payments": 2519.11,
       "deposits": 0,
-      "projected": -24035.49
+      "projected": -22900.24
     },
     {
       "name": "Group Group",
@@ -133,7 +133,7 @@
       "amount": 6000.0,
       "memo": "CP  Lawn Care and Maintenance",
       "entity": "CP",
-      "status": "approved",
+      "status": "hold",
       "intercompany": false
     },
     {
@@ -141,7 +141,7 @@
       "amount": 3007.25,
       "memo": "Sewer Maintenance",
       "entity": "CP",
-      "status": "approved",
+      "status": "hold",
       "intercompany": false
     },
     {
@@ -173,7 +173,7 @@
       "amount": 6000.0,
       "memo": "FS Lawn Care and Maintenance",
       "entity": "FS",
-      "status": "approved",
+      "status": "hold",
       "intercompany": false
     },
     {
@@ -181,7 +181,7 @@
       "amount": 2189.0,
       "memo": "Sewer Maintenance",
       "entity": "FS",
-      "status": "approved",
+      "status": "hold",
       "intercompany": false
     },
     {
@@ -212,14 +212,6 @@
       "vendor": "Bookkeeping By Beth",
       "amount": 1371.44,
       "memo": "48.97 Hours",
-      "entity": "GRP",
-      "status": "approved",
-      "intercompany": false
-    },
-    {
-      "vendor": "Express Services, Inc.",
-      "amount": 1135.25,
-      "memo": "25053  -  Residential Maintenance Technicia",
       "entity": "GRP",
       "status": "approved",
       "intercompany": false
@@ -468,7 +460,7 @@
   ],
   "for_ownership": {
     "label": "Projected end-of-week cash",
-    "number": 115074.0,
+    "number": 133405.0,
     "paragraph": "We close this week at roughly $125,074 available across all accounts after $24,068 in external payments and $38,120 in approved intercompany transfers. All property distributions flowed into Group Group this week bringing it to $51K. GRP continues to run negative on available cash due to pending transactions and needs resolution before next week. Country Aire, RMF, and Winterwood are all thin under $5K projected."
   },
   "forecast": [
