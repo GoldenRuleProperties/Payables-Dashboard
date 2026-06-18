@@ -54,10 +54,10 @@
       "name": "Group Group",
       "code": "GG",
       "bank_balance": 14377.75,
-      "available": 14377.75,
+      "available": 4377.75,
       "payments": 0.0,
       "deposits": 36980.0,
-      "projected": 51357.75
+      "projected": 41357.75
     },
     {
       "name": "Riverside Estates",
@@ -468,7 +468,7 @@
   ],
   "for_ownership": {
     "label": "Projected end-of-week cash",
-    "number": 125074.0,
+    "number": 115074.0,
     "paragraph": "We close this week at roughly $125,074 available across all accounts after $24,068 in external payments and $38,120 in approved intercompany transfers. All property distributions flowed into Group Group this week bringing it to $51K. GRP continues to run negative on available cash due to pending transactions and needs resolution before next week. Country Aire, RMF, and Winterwood are all thin under $5K projected."
   },
   "forecast": [
