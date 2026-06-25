@@ -1,0 +1,447 @@
+{
+  "meta": {
+    "week_ending": "2026-06-26",
+    "prepared_by": "Beth Dandini",
+    "historical": false
+  },
+  "entities": [
+    {
+      "name": "Country Aire",
+      "code": "CA",
+      "bank_balance": 6708.63,
+      "available": 6708.63,
+      "payments": 250.0,
+      "deposits": 0,
+      "projected": 6458.63
+    },
+    {
+      "name": "Countryside",
+      "code": "CP",
+      "bank_balance": 71334.07,
+      "available": 54590.07,
+      "payments": 125.0,
+      "deposits": 0,
+      "projected": 54465.07
+    },
+    {
+      "name": "Decade Acres",
+      "code": "DA",
+      "bank_balance": 8290.81,
+      "available": 7150.91,
+      "payments": 1735.0,
+      "deposits": 0,
+      "projected": 5415.91
+    },
+    {
+      "name": "Four Seasons",
+      "code": "FS",
+      "bank_balance": 17946.25,
+      "available": 17146.25,
+      "payments": 825.0,
+      "deposits": 0,
+      "projected": 16321.25
+    },
+    {
+      "name": "Golden Rule Practices",
+      "code": "GRP",
+      "bank_balance": 20244.45,
+      "available": -11849.07,
+      "payments": 2305.7,
+      "deposits": 0,
+      "projected": -14154.77
+    },
+    {
+      "name": "Group Group",
+      "code": "GG",
+      "bank_balance": 41357.75,
+      "available": 41357.75,
+      "payments": 45000.0,
+      "deposits": 0,
+      "projected": -3642.25
+    },
+    {
+      "name": "Riverside Estates",
+      "code": "RE",
+      "bank_balance": 18585.45,
+      "available": 12902.55,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 12902.55
+    },
+    {
+      "name": "RMF",
+      "code": "RMF",
+      "bank_balance": 3056.53,
+      "available": 2701.53,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 2701.53
+    },
+    {
+      "name": "Winterwood",
+      "code": "WW",
+      "bank_balance": 7469.55,
+      "available": 7469.55,
+      "payments": 1602.5,
+      "deposits": 0,
+      "projected": 5867.05
+    }
+  ],
+  "payables": [
+    {
+      "vendor": "Genesis Lawn",
+      "amount": 250.0,
+      "memo": "CA Landscaping  Service Date: 06/09",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Brockman Lawn Care",
+      "amount": 6000.0,
+      "memo": "CP  Lawn Care and Maintenance",
+      "entity": "CP",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "De Hart Plumbing Heating & Cooling",
+      "amount": 3007.25,
+      "memo": "Sewer Maintenance",
+      "entity": "CP",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "The Zervice Co",
+      "amount": 125.0,
+      "memo": "Commercial mower rental",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Mowery Home Repair LLC",
+      "amount": 35.0,
+      "memo": "DA: 43 Service issue #3749",
+      "entity": "DA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Van Dykes Lawncare",
+      "amount": 1700.0,
+      "memo": "May Mowing",
+      "entity": "DA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Brockman Lawn Care",
+      "amount": 6000.0,
+      "memo": "FS Lawn Care and Maintenance",
+      "entity": "FS",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "De Hart Plumbing Heating & Cooling",
+      "amount": 2189.0,
+      "memo": "Sewer Maintenance",
+      "entity": "FS",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "Group Group LLC",
+      "amount": 8021.0,
+      "memo": "FS [Month] 2026 Distribution",
+      "entity": "FS",
+      "status": "hold",
+      "intercompany": false
+    },
+    {
+      "vendor": "Lawn & Order JC",
+      "amount": 825.0,
+      "memo": "Mowing",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Bookkeeping By Beth",
+      "amount": 1618.96,
+      "memo": "57.82 Hours",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 274.38,
+      "memo": "FS1: 78 AC Issue  The line is completely frozen and no cool air coming out the vents in the unit.",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Mowery Home Repair LLC",
+      "amount": 304.27,
+      "memo": "DA: 31 Repairs and maintenance",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Mowery Home Repair LLC",
+      "amount": 108.09,
+      "memo": "DA: 31 HVAC trouble shooting and parts service issue",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Tim Distribution",
+      "amount": 45000.0,
+      "memo": "Tim Distribution",
+      "entity": "GG",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Jeff House",
+      "amount": 300.0,
+      "memo": "6.15.26-6.21.26",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Joshuah Muse",
+      "amount": 507.5,
+      "memo": "Park Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Kodey Gilpin",
+      "amount": 775.0,
+      "memo": "Park Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Shane Kelley",
+      "amount": 20.0,
+      "memo": "WW Repair Weed Eater",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    }
+  ],
+  "other_obligations": {
+    "summary": {
+      "item_count": 7,
+      "total_needed": 101266.77,
+      "total_reserved": 0,
+      "total_unfunded": 101266.77,
+      "reserve_coverage_pct": 0.0
+    },
+    "items": [
+      {
+        "description": "2008 W 3rd \u2014 Vincent lien release",
+        "amount_needed": 15586.19,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Confirmed amount $15,586.19."
+      },
+      {
+        "description": "FS2: 024 Lien release to Vincent",
+        "amount_needed": 16000,
+        "amount_reserved": 0,
+        "due_date": "2026-04-30",
+        "funding_plan": "Due date passed. Confirm status with Vincent."
+      },
+      {
+        "description": "FS2: 01 Lien release to Vincent",
+        "amount_needed": 17227.5,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "FS2:01 financing underway with Jessica Rienquist. Pay lien at closing."
+      },
+      {
+        "description": "Trent Distribution",
+        "amount_needed": 27235.83,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": ""
+      },
+      {
+        "description": "Brockman Lawn Care \u2014 held (CP + FS)",
+        "amount_needed": 12000,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "Both $6,000 bills on hold. Approve when cash position allows."
+      },
+      {
+        "description": "De Hart Plumbing \u2014 held (CP + FS)",
+        "amount_needed": 5196.25,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "CP $3,007.25 + FS $2,189.00 on hold."
+      },
+      {
+        "description": "FS Distribution \u2014 held",
+        "amount_needed": 8021,
+        "amount_reserved": 0,
+        "due_date": null,
+        "funding_plan": "FS [Month] 2026 distribution held to keep FS positive."
+      }
+    ]
+  },
+  "home_obligations": {
+    "summary": {
+      "home_count": 11,
+      "total_liens_outstanding": 56148.12,
+      "total_rehab_in_pipeline": 0,
+      "total_projected_sale_proceeds": 175500,
+      "total_net_reserve_needed": 0,
+      "homes_missing_projected_sale": 5
+    },
+    "homes": [
+      {
+        "home_id": "CP:44Waterway",
+        "status": "Pending Sale",
+        "sub_status": "Vanderbilt Approved",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 27000,
+        "net_reserve_needed": 0,
+        "notes": "Buyer approved through Vanderbilt at $27K. Title pending from state."
+      },
+      {
+        "home_id": "CP:2141Patricia",
+        "status": "Pending Sale",
+        "sub_status": "Vanderbilt Approved",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 25000,
+        "net_reserve_needed": 0,
+        "notes": "Diana Mayo \u2014 Vanderbilt zero down. Park approved."
+      },
+      {
+        "home_id": "WW:6D",
+        "status": "Pending Sale",
+        "sub_status": "Sell Only",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 36500,
+        "net_reserve_needed": 0,
+        "notes": "Closed. Lien released."
+      },
+      {
+        "home_id": "WW:18A",
+        "status": "Pending Sale",
+        "sub_status": "Sell Only",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 46000,
+        "net_reserve_needed": 0,
+        "notes": "Signed purchase agreement pending title return."
+      },
+      {
+        "home_id": "FS2:01",
+        "status": "Listed",
+        "sub_status": "Financing Underway",
+        "lien_amount": 17227.5,
+        "rehab_cost": 0,
+        "projected_sale_price": 29000,
+        "net_reserve_needed": 0,
+        "notes": "Jessica Rienquist financing underway. Lien to Vincent at closing. Net to GRP: $11,772."
+      },
+      {
+        "home_id": "FS1:17",
+        "status": "Listed",
+        "sub_status": "Application Approved",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": 25000,
+        "net_reserve_needed": 0,
+        "notes": "Application approved. Financing link sent."
+      },
+      {
+        "home_id": "FS2:28",
+        "status": "Listed",
+        "sub_status": "Active",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Listed."
+      },
+      {
+        "home_id": "FS2:29",
+        "status": "Listed",
+        "sub_status": "Active",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Listed."
+      },
+      {
+        "home_id": "FS2:029",
+        "status": "Make Ready",
+        "sub_status": "Final Inspections",
+        "lien_amount": 19740.12,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Relisting after punch list. Lien to Vincent."
+      },
+      {
+        "home_id": "FS2:047",
+        "status": "Make Ready",
+        "sub_status": "Bid Received",
+        "lien_amount": 19180.5,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Rehab bid $15K. Lien to Vincent."
+      },
+      {
+        "home_id": "FS2:3",
+        "status": "Make Ready",
+        "sub_status": "Vacating End of June",
+        "lien_amount": 0,
+        "rehab_cost": 0,
+        "projected_sale_price": null,
+        "net_reserve_needed": null,
+        "notes": "Burglary incident. Tenant Nathaniel Foreman. Lease expires end of June."
+      }
+    ]
+  },
+  "budget_vs_actual": null,
+  "monthly_outlook": null,
+  "cfo_summary": [
+    "<strong>Total available cash is $138,178</strong> across all nine entities. After <strong>$51,843 in approved external payments</strong> this week, projected end-of-week balance is <strong>$86,335</strong>. No intercompany transfers this week \u2014 no management fees or open lot payments in the bills tab.",
+    "<strong>Two entities project negative this week.</strong> GRP is at ($14,155) \u2014 the fourth consecutive week carrying a negative available balance from pending transactions. <strong>Group Group projects to ($3,642)</strong> after the $45,000 Tim Distribution exceeds the $41,358 available balance. GG needs a deposit or transfer to cover the shortfall.",
+    "<strong>$25,217 in bills remain on hold</strong> \u2014 Brockman Lawn Care ($12,000 across CP and FS), De Hart Plumbing ($5,196 across CP and FS), and the FS June distribution ($8,021). Countryside has $54,465 available and is the logical source to approve the held bills when ready.",
+    "<strong>RMF projects to $2,702 (thin)</strong> with no payments this week. RMF has been thin for several consecutive weeks. Monitor for any unexpected bills.",
+    "<strong>No BvA, Monthly Outlook, or meeting notes this week.</strong> End of June \u2014 recommend pulling the full June P&L next week to close out the month and resume BvA."
+  ],
+  "for_ownership": {
+    "label": "Projected end-of-week cash",
+    "number": 86335.0,
+    "paragraph": "We close this week at roughly $86,335 available across all accounts after $51,843 in external payments including the $45,000 Tim Distribution. Group Group goes slightly negative this week because the distribution exceeds its available balance \u2014 that shortfall needs to be covered by a transfer. GRP continues to carry a negative available balance from pending transactions and has done so for four consecutive weeks. Countryside is the strongest position at $54,465 and is the likely source for resolving both the GG shortfall and the held lawn and plumbing bills."
+  },
+  "forecast": [
+    "<strong>CP:44 Waterway and CP:2141 Patricia</strong> remain pending sale through Vanderbilt. Both expected to close in June or early July.",
+    "<strong>FS1:17 application is approved</strong> with financing link sent. FS2:28 and FS2:29 are listed and active. FS2:01 financing continues with Jessica Rienquist at $29K.",
+    "<strong>FS2:3 vacates end of June</strong> following the burglary incident. Will come back as make-ready in July.",
+    "<strong>GRP negative available balance</strong> has persisted for four consecutive weeks. Identifying and resolving the pending transaction source is the top priority before the June 30 month-end close."
+  ],
+  "recap_notes": []
+}
