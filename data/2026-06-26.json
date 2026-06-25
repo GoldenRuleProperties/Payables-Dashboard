@@ -243,20 +243,13 @@
   ],
   "other_obligations": {
     "summary": {
-      "item_count": 7,
-      "total_needed": 101266.77,
+      "item_count": 6,
+      "total_needed": 85680.58,
       "total_reserved": 0,
-      "total_unfunded": 101266.77,
+      "total_unfunded": 85680.58,
       "reserve_coverage_pct": 0.0
     },
     "items": [
-      {
-        "description": "2008 W 3rd \u2014 Vincent lien release",
-        "amount_needed": 15586.19,
-        "amount_reserved": 0,
-        "due_date": null,
-        "funding_plan": "Confirmed amount $15,586.19."
-      },
       {
         "description": "FS2: 024 Lien release to Vincent",
         "amount_needed": 16000,
