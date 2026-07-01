@@ -46,9 +46,9 @@
       "code": "GRP",
       "bank_balance": 1790.23,
       "available": 1790.23,
-      "payments": 1591.52,
+      "payments": 9546.52,
       "deposits": 27861.2,
-      "projected": 28059.91
+      "projected": 20104.91
     },
     {
       "name": "Group Group",
@@ -255,6 +255,14 @@
       "entity": "CA",
       "status": "approved",
       "intercompany": false
+    },
+    {
+      "vendor": "Rico's Quality Remodeling",
+      "amount": 7955.0,
+      "memo": "GRP Remodeling",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
     }
   ],
   "other_obligations": {
@@ -456,7 +464,7 @@
   ],
   "for_ownership": {
     "label": "Projected end-of-week cash",
-    "number": 95778.0,
+    "number": 87823.0,
     "paragraph": "We close this week at roughly $95,778 available across all accounts after $7,251 in external payments and $27,861 in July management fees flowing to GRP. GRP recovers strongly this week from the management fee deposits. Group Group is essentially at zero with only $58 available and needs a small transfer to provide any buffer. Two CP lien releases totaling $35,960 are ready to go out next week once confirmed."
   },
   "forecast": [
