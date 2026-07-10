@@ -10,36 +10,36 @@
       "code": "CA",
       "bank_balance": 23971.99,
       "available": 9635.26,
-      "payments": 250.0,
+      "payments": 3556.26,
       "deposits": 0,
-      "projected": 9385.26
+      "projected": 6079.0
     },
     {
       "name": "Countryside",
       "code": "CP",
       "bank_balance": 113214.34,
       "available": 99265.39,
-      "payments": 3417.25,
-      "deposits": 0,
-      "projected": 95848.14
+      "payments": 40720.25,
+      "deposits": 27548.52,
+      "projected": 86093.66
     },
     {
       "name": "Decade Acres",
       "code": "DA",
       "bank_balance": 27505.87,
       "available": 25805.87,
-      "payments": 0.0,
+      "payments": 3269.58,
       "deposits": 0,
-      "projected": 25805.87
+      "projected": 22536.29
     },
     {
       "name": "Four Seasons",
       "code": "FS",
       "bank_balance": 32831.86,
       "available": 32031.86,
-      "payments": 4164.0,
+      "payments": 19512.23,
       "deposits": 0,
-      "projected": 27867.86
+      "projected": 12519.63
     },
     {
       "name": "Golden Rule Practices",
@@ -64,9 +64,9 @@
       "code": "RE",
       "bank_balance": 23489.18,
       "available": 9332.74,
-      "payments": 1650.0,
+      "payments": 3692.05,
       "deposits": 0,
-      "projected": 7682.74
+      "projected": 5640.69
     },
     {
       "name": "RMF",
@@ -82,9 +82,9 @@
       "code": "WW",
       "bank_balance": 42937.46,
       "available": 26480.08,
-      "payments": 2282.0,
+      "payments": 6284.4,
       "deposits": 0,
-      "projected": 24198.08
+      "projected": 20195.68
     }
   ],
   "payables": [
@@ -215,6 +215,62 @@
       "entity": "WW",
       "status": "approved",
       "intercompany": false
+    },
+    {
+      "vendor": "Eusebio Chavez",
+      "amount": 420.0,
+      "memo": "Park Maintenance",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "EIG",
+      "amount": 37303.0,
+      "memo": "Annual Insurance Premium",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 3269.58,
+      "memo": "DA Insurance Allocation",
+      "entity": "DA",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 15348.23,
+      "memo": "FS Insurance Allocation",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 2042.05,
+      "memo": "RE Insurance Allocation",
+      "entity": "RE",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 2886.26,
+      "memo": "CA Insurance Allocation",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Countryside Parks LLC",
+      "amount": 4002.4,
+      "memo": "WW Insurance Allocation",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": true
     }
   ],
   "other_obligations": {
@@ -403,7 +459,7 @@
   ],
   "for_ownership": {
     "label": "Projected end-of-week cash",
-    "number": 185131.0,
+    "number": 147408.0,
     "paragraph": "We close this week at roughly $203,884 available across all accounts after $40,242 in external payments. The CP:2141 Patricia lien release cleared this week, finalizing that home sale. GRP is thin at $6,511 after its payments and Group Group is essentially at zero \u2014 both need attention before next week. Countryside is the strongest position at $95,848 and is the logical source for any transfers needed."
   },
   "forecast": [
