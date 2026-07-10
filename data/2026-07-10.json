@@ -46,9 +46,9 @@
       "code": "GRP",
       "bank_balance": 45974.22,
       "available": 34989.17,
-      "payments": 28478.6,
+      "payments": 47231.68,
       "deposits": 0,
-      "projected": 6510.57
+      "projected": -12242.51
     },
     {
       "name": "Group Group",
@@ -165,7 +165,7 @@
       "amount": 18753.08,
       "memo": "VIN: BJ510386V CP: 58 Powerline Lien Release",
       "entity": "GRP",
-      "status": "hold",
+      "status": "approved",
       "intercompany": false
     },
     {
@@ -219,10 +219,10 @@
   ],
   "other_obligations": {
     "summary": {
-      "item_count": 7,
-      "total_needed": 104433.66,
+      "item_count": 6,
+      "total_needed": 85680.58,
       "total_reserved": 0,
-      "total_unfunded": 104433.66,
+      "total_unfunded": 85680.58,
       "reserve_coverage_pct": 0.0
     },
     "items": [
@@ -267,13 +267,6 @@
         "amount_reserved": 0,
         "due_date": null,
         "funding_plan": "FS distribution held."
-      },
-      {
-        "description": "CP: 58 Powerline lien release to Vincent \u2014 held",
-        "amount_needed": 18753.08,
-        "amount_reserved": 0,
-        "due_date": null,
-        "funding_plan": "On hold. Expected to pay next week."
       }
     ]
   },
@@ -410,7 +403,7 @@
   ],
   "for_ownership": {
     "label": "Projected end-of-week cash",
-    "number": 203884.0,
+    "number": 185131.0,
     "paragraph": "We close this week at roughly $203,884 available across all accounts after $40,242 in external payments. The CP:2141 Patricia lien release cleared this week, finalizing that home sale. GRP is thin at $6,511 after its payments and Group Group is essentially at zero \u2014 both need attention before next week. Countryside is the strongest position at $95,848 and is the logical source for any transfers needed."
   },
   "forecast": [
