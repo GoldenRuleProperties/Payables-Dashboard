@@ -10,36 +10,36 @@
       "code": "CA",
       "bank_balance": 17858.25,
       "available": 11371.06,
-      "payments": 390.0,
+      "payments": 3797.0,
       "deposits": 0,
-      "projected": 10981.06
+      "projected": 7574.06
     },
     {
       "name": "Countryside",
       "code": "CP",
       "bank_balance": 92203.76,
       "available": 49605.39,
-      "payments": 0.0,
+      "payments": 15544.0,
       "deposits": 0,
-      "projected": 49605.39
+      "projected": 34061.39
     },
     {
       "name": "Decade Acres",
       "code": "DA",
       "bank_balance": 16129.87,
       "available": 14429.87,
-      "payments": 229.0,
+      "payments": 4772.0,
       "deposits": 0,
-      "projected": 14200.87
+      "projected": 9657.87
     },
     {
       "name": "Four Seasons",
       "code": "FS",
       "bank_balance": 22236.59,
       "available": 18633.32,
-      "payments": 1135.0,
+      "payments": 9156.0,
       "deposits": 0,
-      "projected": 17498.32
+      "projected": 9477.32
     },
     {
       "name": "Golden Rule Practices",
@@ -56,35 +56,35 @@
       "bank_balance": 57.75,
       "available": 57.75,
       "payments": 0.0,
-      "deposits": 0,
-      "projected": 57.75
+      "deposits": 45001.0,
+      "projected": 45058.75
     },
     {
       "name": "Riverside Estates",
       "code": "RE",
       "bank_balance": 20136.48,
       "available": 13395.01,
-      "payments": 0.0,
+      "payments": 4543.0,
       "deposits": 0,
-      "projected": 13395.01
+      "projected": 8852.01
     },
     {
       "name": "RMF",
       "code": "RMF",
       "bank_balance": 9422.66,
       "available": 9067.66,
-      "payments": 0.0,
+      "payments": 355.0,
       "deposits": 0,
-      "projected": 9067.66
+      "projected": 8712.66
     },
     {
       "name": "Winterwood",
       "code": "WW",
       "bank_balance": 17728.64,
       "available": 14627.57,
-      "payments": 1395.0,
+      "payments": 9983.0,
       "deposits": 0,
-      "projected": 13232.57
+      "projected": 4644.57
     }
   ],
   "payables": [
@@ -207,6 +207,62 @@
       "entity": "WW",
       "status": "approved",
       "intercompany": false
+    },
+    {
+      "vendor": "Group Group",
+      "amount": 3407.0,
+      "memo": "CA [JUL] 2026 Distribution",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Group Group",
+      "amount": 8021.0,
+      "memo": "FS [JUL] 2026 Distribution",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Group Group",
+      "amount": 4543.0,
+      "memo": "DA [JUL] 2026 Distribution",
+      "entity": "DA",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Group Group",
+      "amount": 8588.0,
+      "memo": "WW [JUL] 2026 Distribution",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Group Group",
+      "amount": 15544.0,
+      "memo": "CP [JUL] 2026 Distribution",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Group Group",
+      "amount": 4543.0,
+      "memo": "RE [JUL] 2026 Distribution",
+      "entity": "RE",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "Group Group",
+      "amount": 355.0,
+      "memo": "RMF [JUL] 2026 Distribution",
+      "entity": "RMF",
+      "status": "approved",
+      "intercompany": true
     }
   ],
   "other_obligations": {
