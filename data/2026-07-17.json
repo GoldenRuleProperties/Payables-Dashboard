@@ -55,9 +55,9 @@
       "code": "GG",
       "bank_balance": 57.75,
       "available": 57.75,
-      "payments": 0.0,
+      "payments": 45000.0,
       "deposits": 45001.0,
-      "projected": 45058.75
+      "projected": 58.75
     },
     {
       "name": "Riverside Estates",
@@ -263,6 +263,14 @@
       "entity": "RMF",
       "status": "approved",
       "intercompany": true
+    },
+    {
+      "vendor": "Tim Distribution",
+      "amount": 45000.0,
+      "memo": "Tim Distribution",
+      "entity": "GG",
+      "status": "approved",
+      "intercompany": false
     }
   ],
   "other_obligations": {
@@ -441,7 +449,7 @@
   ],
   "for_ownership": {
     "label": "Projected end-of-week cash",
-    "number": 94286.0,
+    "number": 49286.0,
     "paragraph": "We close this week at roughly $94,286 available across all accounts after $68,494 in payments including three lien releases on closed home sales. GRP goes negative $33,752 this week as it continues to pay closing costs on behalf of the property entities \u2014 a transfer from Countryside is needed to cover. Group Group has been at essentially zero for three weeks and needs a small transfer. The portfolio is otherwise in solid shape with Countryside at $49,605 and Riverside at $13,395."
   },
   "forecast": [
