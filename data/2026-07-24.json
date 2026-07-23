@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "week_ending": "2026-07-24",
+    "prepared_by": "Beth Dandini",
+    "historical": false
+  },
+  "entities": [
+    {
+      "name": "Country Aire",
+      "code": "CA",
+      "bank_balance": 8248.55,
+      "available": 8126.49,
+      "payments": 530.0,
+      "deposits": 0,
+      "projected": 7596.49
+    },
+    {
+      "name": "Countryside",
+      "code": "CP",
+      "bank_balance": 82770.44,
+      "available": 40230.07,
+      "payments": 5075.0,
+      "deposits": 0,
+      "projected": 35155.07
+    },
+    {
+      "name": "Decade Acres",
+      "code": "DA",
+      "bank_balance": 6633.32,
+      "available": 4933.32,
+      "payments": 1700.0,
+      "deposits": 0,
+      "projected": 3233.32
+    },
+    {
+      "name": "Four Seasons",
+      "code": "FS",
+      "bank_balance": 17717.37,
+      "available": 17717.37,
+      "payments": 3250.0,
+      "deposits": 0,
+      "projected": 14467.37
+    },
+    {
+      "name": "Golden Rule Practices",
+      "code": "GRP",
+      "bank_balance": 35945.71,
+      "available": -17938.72,
+      "payments": 1578.08,
+      "deposits": 0,
+      "projected": -19516.8
+    },
+    {
+      "name": "Group Group",
+      "code": "GG",
+      "bank_balance": 6538.75,
+      "available": 6538.75,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 6538.75
+    },
+    {
+      "name": "Riverside Estates",
+      "code": "RE",
+      "bank_balance": 13943.48,
+      "available": 8852.01,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 8852.01
+    },
+    {
+      "name": "RMF",
+      "code": "RMF",
+      "bank_balance": 7318.63,
+      "available": 6963.63,
+      "payments": 1125.0,
+      "deposits": 0,
+      "projected": 5838.63
+    },
+    {
+      "name": "Winterwood",
+      "code": "WW",
+      "bank_balance": 7680.64,
+      "available": 5419.57,
+      "payments": 1840.0,
+      "deposits": 0,
+      "projected": 3579.57
+    }
+  ],
+  "payables": [
+    {
+      "vendor": "Eusebio Chavez",
+      "amount": 280.0,
+      "memo": "Park Maintenance",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Genesis Lawn",
+      "amount": 250.0,
+      "memo": "CA Landscaping  Service Date: 07/15",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Brockman Lawn Care",
+      "amount": 1700.0,
+      "memo": "Tree Removal/Trimming",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Hemmert Electric Inc",
+      "amount": 3250.0,
+      "memo": "Install new 100service and wiring tom home",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "The Zervice Co",
+      "amount": 125.0,
+      "memo": "John Deere Q820M Stand-On commercial mower rental",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Van Dykes Lawncare",
+      "amount": 1700.0,
+      "memo": "Mowing",
+      "entity": "DA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Lawn & Order JC",
+      "amount": 750.0,
+      "memo": "Mowing 7.20.26",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Whitley Tree and Stump Service",
+      "amount": 2500.0,
+      "memo": "Remove 2 trees and multiple hangers",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Bookkeeping By Beth",
+      "amount": 1578.08,
+      "memo": "56.36 Hours",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Mr. Sans Remodeling LLC",
+      "amount": 245.0,
+      "memo": "Western New faucet",
+      "entity": "RMF",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Mr. Sans Remodeling LLC",
+      "amount": 880.0,
+      "memo": "Indina - Small tree & limb removal",
+      "entity": "RMF",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Jeff House",
+      "amount": 370.0,
+      "memo": "7.13.26-7.19.26",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Joshuah Muse",
+      "amount": 600.0,
+      "memo": "Park Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Kodey Gilpin",
+      "amount": 870.0,
+      "memo": "Park Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    }
+  ],
+  "other_obligations": null,
+  "home_obligations": null,
+  "budget_vs_actual": null,
+  "monthly_outlook": null,
+  "cfo_summary": [
+    "<strong>Total available cash is $80,842</strong> across all nine entities. After <strong>$15,098 in approved external payments</strong> this week, projected end-of-week balance is <strong>$65,744</strong>. No intercompany transfers this week.",
+    "<strong>GRP projects to negative $19,517</strong> \u2014 the fifth consecutive week carrying a negative available balance from pending transactions. GRP true bank balance is $35,946 but pending transactions reduce available to negative $17,939 before any bills are paid. The bookkeeping fee of $1,578 is the only GRP bill this week. The pending transaction gap requires resolution before next week.",
+    "<strong>Decade Acres projects to $3,233</strong> \u2014 thin after the $1,700 mowing payment. Group Group projects to $6,539 with no payments this week. Winterwood projects to $3,580 after three maintenance and labor bills totaling $1,840.",
+    "<strong>No BvA, obligations, or meeting notes this week.</strong> Obligations section suppressed at Beth's direction."
+  ],
+  "for_ownership": {
+    "label": "Projected end-of-week cash",
+    "number": 65744.0,
+    "paragraph": "We close this week at roughly $65,744 available across all accounts after $15,098 in routine maintenance and operations payments. GRP continues to carry a negative available balance from pending transactions and projects to negative $19,517 this week. Countryside is the strongest position at $35,155 and Riverside at $8,852. Decade Acres and Winterwood are both thin under $4,000."
+  },
+  "forecast": [
+    "<strong>GRP negative available balance</strong> has persisted for five consecutive weeks. Identifying and resolving the pending transaction source remains the top priority.",
+    "<strong>Obligations deferred this week</strong> \u2014 Trent distribution, held Brockman and De Hart bills, FS distribution, and Vincent lien releases will be reviewed when BvA resumes."
+  ],
+  "recap_notes": []
+}
