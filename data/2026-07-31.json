@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "week_ending": "2026-07-31",
+    "prepared_by": "Beth Dandini",
+    "historical": false
+  },
+  "entities": [
+    {
+      "name": "Country Aire",
+      "code": "CA",
+      "bank_balance": 12134.27,
+      "available": 11665.59,
+      "payments": 355.0,
+      "deposits": 0,
+      "projected": 11310.59
+    },
+    {
+      "name": "Countryside",
+      "code": "CP",
+      "bank_balance": 87436.58,
+      "available": 80436.03,
+      "payments": 38586.25,
+      "deposits": 0,
+      "projected": 41849.78
+    },
+    {
+      "name": "Decade Acres",
+      "code": "DA",
+      "bank_balance": 5647.32,
+      "available": 2807.42,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 2807.42
+    },
+    {
+      "name": "Four Seasons",
+      "code": "FS",
+      "bank_balance": 18636.12,
+      "available": 17756.12,
+      "payments": 700.0,
+      "deposits": 0,
+      "projected": 17056.12
+    },
+    {
+      "name": "Golden Rule Practices",
+      "code": "GRP",
+      "bank_balance": 56441.76,
+      "available": 56243.44,
+      "payments": 44503.62,
+      "deposits": 0,
+      "projected": 11739.82
+    },
+    {
+      "name": "Group Group",
+      "code": "GG",
+      "bank_balance": -38461.25,
+      "available": -38461.25,
+      "payments": 0.0,
+      "deposits": 38461.25,
+      "projected": 0.0
+    },
+    {
+      "name": "Riverside Estates",
+      "code": "RE",
+      "bank_balance": 12484.51,
+      "available": 12272.01,
+      "payments": 3500.0,
+      "deposits": 0,
+      "projected": 8772.01
+    },
+    {
+      "name": "RMF",
+      "code": "RMF",
+      "bank_balance": 6193.63,
+      "available": 6193.63,
+      "payments": 0.0,
+      "deposits": 0,
+      "projected": 6193.63
+    },
+    {
+      "name": "Winterwood",
+      "code": "WW",
+      "bank_balance": 8115.75,
+      "available": 8115.75,
+      "payments": 3665.0,
+      "deposits": 0,
+      "projected": 4450.75
+    }
+  ],
+  "payables": [
+    {
+      "vendor": "Eusebio Chavez",
+      "amount": 105.0,
+      "memo": "Mowing",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Genesis Lawn",
+      "amount": 250.0,
+      "memo": "CA Landscaping  Service Date: 07/21",
+      "entity": "CA",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Group Group LLC",
+      "amount": 38461.25,
+      "memo": "Cover Distribution",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": true
+    },
+    {
+      "vendor": "The Zervice Co",
+      "amount": 125.0,
+      "memo": "John Deere Q820M Stand-On commercial mower rental",
+      "entity": "CP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Lawn & Order JC",
+      "amount": 700.0,
+      "memo": "28 company homes",
+      "entity": "FS",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Bookkeeping By Beth",
+      "amount": 1305.92,
+      "memo": "46.64 Hours",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "C&K Construction and Service",
+      "amount": 1329.28,
+      "memo": "CP: 305 Knox SEWER REPAIR",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Community National",
+      "amount": 11624.31,
+      "memo": "VIN: 42510375J FS1: 62 Lien Release",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Juan Cardoza",
+      "amount": 30080.0,
+      "memo": "Sale of home less 6% commission",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Royal Supply",
+      "amount": 164.11,
+      "memo": "FS OFFICE Materials",
+      "entity": "GRP",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "To Do Property Clean Up",
+      "amount": 3500.0,
+      "memo": "RE Home Demo",
+      "entity": "RE",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "David Walker",
+      "amount": 1670.0,
+      "memo": "Remodel",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Jeff House",
+      "amount": 315.0,
+      "memo": "7.20.26-7.25.26",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Joshuah Muse",
+      "amount": 750.0,
+      "memo": "Park Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    },
+    {
+      "vendor": "Kodey Gilpin",
+      "amount": 930.0,
+      "memo": "Park Maintenance",
+      "entity": "WW",
+      "status": "approved",
+      "intercompany": false
+    }
+  ],
+  "other_obligations": null,
+  "home_obligations": null,
+  "budget_vs_actual": null,
+  "monthly_outlook": null,
+  "cfo_summary": [
+    "<strong>Total available cash is $157,029</strong> across all nine entities. After <strong>$52,849 in approved external payments</strong> and <strong>$38,461 in intercompany transfers</strong> this week, projected end-of-week balance is <strong>$104,180</strong>.",
+    "<strong>GRP projects to $11,740</strong> after paying the FS1:62 lien release ($11,624), the home sale payment ($30,080), bookkeeping ($1,306), sewer repair ($1,329), and office materials ($164). GRP's available balance recovered strongly this week at $56,243 \u2014 the first positive available in six weeks. The pending transaction gap that persisted through July appears to have cleared.",
+    "<strong>Countryside pays $38,461 to cover the Group Group negative balance</strong> as an intercompany transfer. GG receives it as a deposit, bringing it from negative $38,461 to $0 projected. CP projects to $41,849 after the transfer.",
+    "<strong>Decade Acres projects to $1,107 \u2014 thin</strong> after the $1,700 mowing payment. No other entities are negative this week.",
+    "<strong>No BvA, obligations, or meeting notes this week.</strong> End of July \u2014 recommend pulling the full July P&L next week to resume BvA."
+  ],
+  "for_ownership": {
+    "label": "Projected end-of-week cash",
+    "number": 104180.0,
+    "paragraph": "We close this week at roughly $104,180 available across all accounts after $52,849 in external payments including the FS1:62 lien release and a home sale payment. GRP's available balance recovered fully this week after six consecutive weeks of negative position \u2014 the pending transaction gap has cleared. Countryside covered Group Group's negative distribution balance through an intercompany transfer. Decade Acres is thin at $1,107 and is the only entity to watch heading into next week."
+  },
+  "forecast": [
+    "<strong>GRP available balance has recovered</strong> after six weeks of negative pending transactions. August begins with a clean position \u2014 recommend resuming BvA and pulling the July P&L next week.",
+    "<strong>Decade Acres at $1,107</strong> is the only thin entity. Monitor for any unexpected bills next week."
+  ],
+  "recap_notes": []
+}
