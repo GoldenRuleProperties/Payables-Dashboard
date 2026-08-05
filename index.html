@@ -4,19 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GRP Weekly Cash Position</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- System fonts only. No external font loading. -->
 <style>
 :root {
   --ink:#0f172a;--ink-soft:#1e293b;--ink-mute:#64748b;--rule:#cbd5e1;--rule-soft:#e2e8f0;
   --paper:#f1f5f9;--paper-card:#ffffff;--accent:#1e40af;--accent-deep:#172554;
   --accent-soft:#dbeafe;--sky:#0ea5e9;--sky-soft:#e0f2fe;--warn:#b45309;--warn-soft:#fef3c7;
   --neg:#b91c1c;--neg-soft:#fee2e2;--pos:#15803d;--pos-soft:#dcfce7;
-  --serif:'Fraunces',Georgia,serif;--sans:'Inter Tight',-apple-system,system-ui,sans-serif;
-  --mono:'JetBrains Mono','SF Mono',Menlo,monospace;
+  --stack:Arial,Helvetica,'Helvetica Neue',sans-serif;
+  --serif:var(--stack);--sans:var(--stack);--mono:var(--stack);
 }
 *{box-sizing:border-box;}html,body{margin:0;padding:0;}
+*{font-variant-numeric:tabular-nums;font-feature-settings:'tnum';}
 body{font-family:var(--sans);background:var(--paper);color:var(--ink);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased;}
 .masthead{border-bottom:1px solid var(--rule);background:var(--paper);position:sticky;top:0;z-index:50;}
 .masthead-inner{max-width:1280px;margin:0 auto;padding:20px 40px 14px;display:flex;align-items:flex-end;justify-content:space-between;gap:32px;flex-wrap:wrap;}
@@ -195,6 +194,53 @@ table.obl-table tbody td:first-child{font-weight:500;}
 .empty{text-align:center;padding:36px 20px;color:var(--ink-mute);font-style:italic;font-size:14px;}
 @media(max-width:980px){main{padding:24px;}.masthead-inner{padding:18px 24px 12px;}.hero{grid-template-columns:repeat(3,1fr);}.cash-viz-row{grid-template-columns:1fr;}.obl-summary-grid{grid-template-columns:1fr 1fr;}.month-grid{grid-template-columns:1fr 1fr;}}
 @media(max-width:640px){main{padding:16px;}.masthead-inner{padding:14px 16px 10px;}.hero{grid-template-columns:1fr 1fr;}.prepared-bar,.foot{padding-left:16px;padding-right:16px;}}
+
+/* --- rebuild additions --- */
+.oh-group{background:var(--warn-soft);border:1px dashed #fcd34d;border-radius:3px;padding:14px 16px;margin-top:16px;}
+.oh-group-label{font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:var(--warn);font-weight:600;margin-bottom:10px;}
+.oh-row{padding:7px 0;}
+.oh-row+.oh-row{border-top:1px solid #fde68a;}
+.oh-top{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:baseline;}
+.oh-name{font-size:13px;font-weight:600;color:var(--ink);}
+.oh-amt{font-size:13px;font-weight:600;color:var(--warn);}
+.oh-sub{display:grid;grid-template-columns:1fr auto;gap:12px;font-size:11px;color:#92400e;margin-top:3px;}
+.co-group{background:var(--paper);border:1px dashed var(--rule);border-radius:3px;padding:14px 16px;margin-top:16px;}
+.co-head{display:flex;justify-content:space-between;align-items:center;gap:12px;cursor:pointer;user-select:none;}
+.co-head-label{font-size:10px;text-transform:uppercase;letter-spacing:0.12em;color:var(--ink-mute);font-weight:600;}
+.co-head-right{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--ink-soft);font-weight:600;}
+.co-chev{font-size:9px;color:var(--ink-mute);transition:transform .15s;}
+.co-group.open .co-chev{transform:rotate(180deg);}
+.co-body{display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--rule-soft);}
+.co-group.open .co-body{display:block;}
+.wl-sub{font-size:11px;text-transform:uppercase;letter-spacing:0.12em;font-weight:600;margin:22px 0 10px;}
+.wl-sub:first-child{margin-top:0;}
+.wl-table{width:100%;border-collapse:collapse;font-size:12px;}
+.wl-table th{font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:var(--ink-mute);font-weight:600;border-bottom:1px solid var(--rule);padding:0 10px 8px;text-align:left;}
+.wl-table th.num{text-align:right;}
+.wl-table td{padding:9px 10px;border-bottom:1px dotted var(--rule-soft);vertical-align:top;}
+.wl-table td.num{text-align:right;}
+.wl-table tr.tot td{font-weight:600;background:var(--paper);border-top:1px solid var(--rule);border-bottom:none;}
+.wl-note td{font-size:11px;color:var(--ink-mute);padding:0 10px 9px;border-bottom:1px dotted var(--rule-soft);}
+.wl-pill{display:inline-block;font-size:9px;padding:2px 7px;border-radius:2px;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;}
+.p-ok{background:var(--pos-soft);color:var(--pos);}
+.p-warn{background:var(--warn-soft);color:var(--warn);}
+.p-bad{background:var(--neg-soft);color:var(--neg);}
+.p-off{background:var(--rule-soft);color:var(--ink-mute);}
+.fc-wrap{overflow-x:auto;}
+.fc-table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:840px;}
+.fc-table th{font-size:12px;color:var(--ink-mute);font-weight:400;padding:9px 8px;text-align:right;border-bottom:1px solid var(--rule);}
+.fc-table th.lt{text-align:left;width:190px;font-size:10px;text-transform:uppercase;letter-spacing:0.12em;font-weight:600;padding-left:12px;}
+.fc-table th.rentwk{color:var(--pos);font-weight:600;}
+.fc-table td{padding:9px 8px;text-align:right;border-bottom:1px dotted var(--rule-soft);}
+.fc-table td.lt{text-align:left;padding-left:12px;color:var(--ink-soft);}
+.fc-table tr.wlin{background:#f6fdf8;}
+.fc-table tr.wlout{background:#fdf7f7;}
+.fc-table tr.totrow td{font-weight:600;background:var(--paper);color:var(--accent-deep);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule-soft);padding:11px 8px;}
+.fc-table tr.fundrow td{border-bottom:none;font-size:11px;}
+.fc-callout{padding:12px 16px;font-size:12.5px;line-height:1.6;border-radius:3px;margin-top:14px;}
+.fc-bad{background:var(--neg-soft);color:var(--neg);}
+.fc-warn{background:var(--warn-soft);color:var(--warn);}
+.pos-t{color:var(--pos);} .neg-t{color:var(--neg);} .mute-t{color:var(--ink-mute);}
 </style>
 </head>
 <body>
@@ -239,20 +285,8 @@ table.obl-table tbody td:first-child{font-weight:500;}
     </div>
   </section>
 
-  <section class="block" id="otherObligationsBlock"><div class="block-head"><h2>Other Obligations</h2><span class="eyebrow">distributions, capital projects, acquisitions</span></div>
-    <div class="obl-summary-grid"><div class="obl-summary-cell"><div class="obl-summary-label">Items</div><div class="obl-summary-value" id="ooCount">&mdash;</div></div><div class="obl-summary-cell"><div class="obl-summary-label">Total needed</div><div class="obl-summary-value" id="ooNeeded">&mdash;</div></div><div class="obl-summary-cell"><div class="obl-summary-label">Reserved</div><div class="obl-summary-value" id="ooReserved">&mdash;</div></div><div class="obl-summary-cell accent-amber"><div class="obl-summary-label">Total unfunded</div><div class="obl-summary-value amber" id="ooUnfunded">&mdash;</div></div></div>
-    <div class="obl-table-wrap"><table class="obl-table"><thead><tr><th>Description</th><th class="num">Needed</th><th class="num">Reserved</th><th>Due</th><th>Funding plan</th></tr></thead><tbody id="ooTbody"></tbody></table></div>
-    <div class="reserve-gauge-wrap"><div class="reserve-gauge-head"><div class="reserve-gauge-title">Reserved Coverage</div><div class="reserve-gauge-pct" id="gaugePct">&mdash;</div></div><div class="reserve-gauge-track"><div class="reserve-gauge-fill" id="gaugeFill" style="width:0%"></div></div><div class="reserve-gauge-foot"><span id="gaugeLeft"></span><span id="gaugeRight"></span></div></div>
-  </section>
-
-  <section class="block" id="homeObligationsBlock"><div class="block-head"><h2>Home Obligations</h2><span class="eyebrow" id="hoEyebrow">sourced from Home Tracker</span></div>
-    <div class="obl-summary-grid"><div class="obl-summary-cell"><div class="obl-summary-label">Liens outstanding</div><div class="obl-summary-value" id="hoLiens">&mdash;</div></div><div class="obl-summary-cell"><div class="obl-summary-label">Rehab in pipeline</div><div class="obl-summary-value" id="hoRehab">&mdash;</div></div><div class="obl-summary-cell accent-green"><div class="obl-summary-label">Projected sale proceeds</div><div class="obl-summary-value green" id="hoSale">&mdash;</div></div><div class="obl-summary-cell accent-blue"><div class="obl-summary-label">Net reserve needed</div><div class="obl-summary-value blue" id="hoNet">&mdash;</div><div class="obl-summary-sub" id="hoNetSub"></div></div></div>
-    <div class="obl-table-wrap"><table class="obl-table"><thead><tr><th>Home ID</th><th>Status</th><th class="num">Lien</th><th class="num">Rehab</th><th class="num">Proj. sale</th><th class="num">Net needed</th><th>Notes</th></tr></thead><tbody id="hoTbody"></tbody></table></div>
-  </section>
-
-  <section class="block"><div class="block-head"><h2>Budget vs Actual</h2><span class="eyebrow" id="bvaLabel">&mdash;</span></div><div id="bvaContent"></div></section>
-  <section class="block" id="monthlyOutlookBlock"><div class="block-head"><h2>Monthly Outlook</h2><span class="eyebrow" id="monthLabel">&mdash;</span></div><div class="month-grid" id="monthGrid"></div></section>
-  <section class="block"><div class="block-head"><h2>60-Day Forecast</h2><span class="eyebrow">based on known facts, not projections</span></div><div id="forecastContent" class="forecast-block"></div></section>
+  <section class="block" id="watchlistBlock"><div class="block-head"><h2>Watchlist</h2><span class="eyebrow">feeds the watchlist rows in the forecast</span></div><div id="watchlistContent"></div></section>
+  <section class="block" id="forecastBlock"><div class="block-head"><h2>Forecast</h2><span class="eyebrow" id="forecastEyebrow">nine weeks &middot; budget plus cash flow report</span></div><div id="forecastContent" class="forecast-block"></div></section>
 </main>
 
 <footer class="foot">Golden Rule Practices &middot; Internal financial reporting &middot; Confidential</footer>
@@ -303,8 +337,10 @@ function renderPayables(d){
   wrap.innerHTML='';
   const payables=d.payables||[];
   if(!payables.length){wrap.innerHTML='<div class="empty">No payables this week.</div>';cnt.textContent='0 bills';return;}
-  const external=payables.filter(p=>!p.intercompany);
-  const ic=payables.filter(p=>p.intercompany);
+  const overhead=payables.filter(p=>p.overhead===true);
+  const onhold=payables.filter(p=>p.status==='hold'&&p.overhead!==true);
+  const external=payables.filter(p=>!p.intercompany&&p.overhead!==true&&p.status!=='hold');
+  const ic=payables.filter(p=>p.intercompany&&p.overhead!==true);
   const entityNames={CA:'Country Aire',CP:'Countryside',DA:'Decade Acres',FS:'Four Seasons',GRP:'Golden Rule Practices',GG:'Group Group',RE:'Riverside Estates',RMF:'RMF',WW:'Winterwood'};
   const entityOrder=['CA','CP','DA','FS','GRP','GG','RE','RMF','WW'];
   const byEntity={};
@@ -331,6 +367,44 @@ function renderPayables(d){
       group.appendChild(vrow);
     }
     wrap.appendChild(group);
+  }
+  if(overhead.length>0){
+    const ohTotal=overhead.filter(p=>p.status==='approved').reduce((a,p)=>a+p.amount,0);
+    const co=document.createElement('div');co.className='co-group';
+    const rows=overhead.map(p=>{
+      const isHold=p.status!=='approved';
+      const badge=isHold
+        ?'<span class="wl-pill p-warn" style="margin-left:6px;">'+esc(p.hold_reason||'HOLD')+'</span>'
+        :'<span class="wl-pill p-ok" style="margin-left:6px;">APPROVED</span>';
+      const amt=p.amount?fmtCents.format(p.amount):'&mdash;';
+      return'<div class="ic-item"><span class="ic-item-desc">'+esc(p.vendor)
+        +(p.memo?' &mdash; '+esc(p.memo):'')
+        +' <span style="font-size:10px;background:var(--rule-soft);color:var(--ink-mute);padding:1px 5px;border-radius:2px;">'+esc(p.entity||'')+'</span>'
+        +badge+'</span><span class="ic-item-amt">'+amt+'</span></div>';}).join('');
+    co.innerHTML='<div class="co-head"><span class="co-head-label">Corporate Overhead &mdash; included in approved payments total</span>'
+      +'<span class="co-head-right">'+fmtCents.format(ohTotal)+'<span class="co-chev">&#9660;</span></span></div>'
+      +'<div class="co-body">'+rows+'</div>';
+    co.querySelector('.co-head').addEventListener('click',()=>co.classList.toggle('open'));
+    wrap.appendChild(co);
+  }
+  if(onhold.length>0){
+    const hTotal=onhold.reduce((a,p)=>a+p.amount,0);
+    const hg=document.createElement('div');hg.className='oh-group';
+    const rows=onhold.map(p=>{
+      let wk=null;
+      if(p.held_since){const ms=Date.now()-new Date(p.held_since+'T00:00:00').getTime();wk=Math.max(0,Math.floor(ms/6048e5));}
+      const badge=wk===null?'':'<span class="wl-pill '+(wk>=3?'p-bad':'p-warn')+'" style="margin-left:6px;">'+wk+' WEEK'+(wk===1?'':'S')+'</span>';
+      return'<div class="oh-row"><div class="oh-top"><span class="oh-name">'+esc(p.vendor)
+        +' <span style="font-size:10px;font-weight:400;background:var(--rule-soft);color:var(--ink-mute);padding:1px 5px;border-radius:2px;">'+esc(p.entity||'')+'</span>'
+        +badge+'</span><span class="oh-amt">'+fmtCents.format(p.amount)+'</span></div>'
+        +'<div class="oh-sub"><span>'+esc(p.memo||'')+(p.hold_reason?' &middot; '+esc(p.hold_reason):'')
+        +(p.expected_release?' &middot; release '+esc(p.expected_release):' &middot; no release date, not in the forecast')+'</span>'
+        +'<span>'+(p.held_since?'Held since '+fmtShort(p.held_since):'')+'</span></div></div>';}).join('');
+    hg.innerHTML='<div class="oh-group-label">On Hold &mdash; not releasing this week</div>'+rows
+      +'<div style="display:flex;justify-content:flex-end;gap:20px;padding-top:9px;border-top:1px solid #fde68a;margin-top:9px;font-size:12px;">'
+      +'<span style="color:var(--warn);font-weight:600;">On hold: '+fmt.format(hTotal)+'</span>'
+      +'<span style="color:var(--ink-mute);">Not in approved total</span></div>';
+    wrap.appendChild(hg);
   }
   if(ic.length>0){
     const icDiv=document.createElement('div');icDiv.className='ic-group';
@@ -381,9 +455,14 @@ function renderBarChart(d){
   }
 }
 
-function renderTrendChart(allWeeks){
+function renderTrendChart(allWeeks,currentFile){
   const svg=document.getElementById('trendChart');svg.innerHTML='';
-  const weeks=Object.entries(allWeeks).map(([fn,d])=>({date:fn.replace('.json',''),proj:d.entities.reduce((s,e)=>s+(e.projected||0),0)})).sort((a,b)=>a.date.localeCompare(b.date));
+  const cur=currentFile?currentFile.replace('.json',''):null;
+  let weeks=Object.entries(allWeeks)
+    .map(([fn,d])=>({date:fn.replace('.json',''),proj:d.entities.reduce((s,e)=>s+(e.projected||0),0)}))
+    .filter(w=>!cur||w.date<=cur)
+    .sort((a,b)=>a.date.localeCompare(b.date));
+  weeks=weeks.slice(-8);
   const W=560,H=180,pad={t:20,r:20,b:30,l:60};
   const cW=W-pad.l-pad.r,cH=H-pad.t-pad.b;
   if(weeks.length<2){const t=document.createElementNS('http://www.w3.org/2000/svg','text');t.setAttribute('x',W/2);t.setAttribute('y',H/2);t.setAttribute('text-anchor','middle');t.setAttribute('font-size','13');t.setAttribute('fill','var(--ink-mute)');t.setAttribute('font-family','var(--sans)');t.textContent='Add more weeks to see trend';svg.appendChild(t);document.getElementById('trendRange').textContent=weeks.length+' week';return;}
@@ -398,82 +477,98 @@ function renderTrendChart(allWeeks){
   document.getElementById('trendRange').textContent=weeks.length+' weeks';
 }
 
-function renderOtherObligations(d){
-  const block=document.getElementById('otherObligationsBlock');
-  const oo=d.other_obligations||d.watch_list;
-  if(!oo){block.style.display='none';return;}
+function renderWatchlist(d){
+  const block=document.getElementById('watchlistBlock');
+  const wl=d.watchlist;
+  if(!wl){block.style.display='none';return;}
   block.style.display='';
-  let items,summary;
-  if(Array.isArray(oo)){items=oo;const tot=items.reduce((s,i)=>s+(i.amount_needed||0),0);summary={item_count:items.length,total_needed:tot,total_reserved:0,total_unfunded:tot,reserve_coverage_pct:0};}
-  else{items=oo.items||[];summary=oo.summary||{};}
-  document.getElementById('ooCount').textContent=summary.item_count||items.length;
-  document.getElementById('ooNeeded').textContent=fmt.format(summary.total_needed||0);
-  document.getElementById('ooReserved').textContent=fmt.format(summary.total_reserved||0);
-  document.getElementById('ooUnfunded').textContent=fmt.format(summary.total_unfunded||0);
-  const body=document.getElementById('ooTbody');body.innerHTML='';
-  for(const o of items){const tr=document.createElement('tr');tr.innerHTML='<td>'+esc(o.description)+'</td><td class="num">'+fmt.format(o.amount_needed||0)+'</td><td class="num">'+(o.amount_reserved>0?fmt.format(o.amount_reserved):'<span class="cell-null">$0</span>')+'</td><td>'+(o.due_date?fmtShort(o.due_date):'<span class="cell-null">&mdash;</span>')+'</td><td style="font-size:11px;color:var(--ink-mute)">'+esc(o.funding_plan||'')+'</td>';body.appendChild(tr);}
-  const pct=summary.reserve_coverage_pct||0;
-  const gF=document.getElementById('gaugeFill'),gP=document.getElementById('gaugePct');
-  gP.textContent=pct.toFixed(1)+'%';
-  setTimeout(()=>{gF.style.width=Math.min(pct,100)+'%';},300);
-  document.getElementById('gaugeLeft').textContent='Reserved · '+fmt.format(summary.total_reserved||0);
-  document.getElementById('gaugeRight').textContent='Needed · '+fmt.format(summary.total_needed||0);
-}
-
-function renderHomeObligations(d){
-  const block=document.getElementById('homeObligationsBlock');
-  if(!d.home_obligations){block.style.display='none';return;}
-  block.style.display='';
-  const ho=d.home_obligations,s=ho.summary;
-  const listedN=ho.homes.filter(h=>h.status==='Listed').length;
-  const mrN=ho.homes.filter(h=>h.status==='Make Ready').length;
-  const pendN=ho.homes.filter(h=>h.status==='Pending Sale').length;
-  document.getElementById('hoEyebrow').textContent=pendN+' pending · '+listedN+' listed · '+mrN+' make ready · sourced from Home Tracker';
-  document.getElementById('hoLiens').textContent=fmt.format(s.total_liens_outstanding);
-  document.getElementById('hoRehab').textContent=fmt.format(s.total_rehab_in_pipeline);
-  document.getElementById('hoSale').textContent=fmt.format(s.total_projected_sale_proceeds);
-  document.getElementById('hoNet').textContent=fmt.format(s.total_net_reserve_needed);
-  const sub=document.getElementById('hoNetSub');
-  if(s.homes_missing_projected_sale>0)sub.textContent=s.homes_missing_projected_sale+' of '+s.home_count+' homes still need projection data';
-  const body=document.getElementById('hoTbody');body.innerHTML='';
-  const pill=st=>st?`<span class="status-pill ${st==='Make Ready'?'mr':'li'}">${esc(st)}</span>`:'';
-  for(const h of ho.homes){
-    const net=h.net_reserve_needed===null||h.net_reserve_needed===undefined?'<span class="cell-null">needs price</span>':fmt.format(h.net_reserve_needed);
-    const tr=document.createElement('tr');
-    tr.innerHTML='<td style="font-family:var(--mono);font-size:12px;font-weight:500;">'+esc(h.home_id)+'</td><td>'+pill(h.status)+(h.sub_status?'<div class="sub-status-text">'+esc(h.sub_status)+'</div>':'')+'</td><td class="num">'+(h.lien_amount>0?fmt.format(h.lien_amount):'<span class="cell-null">&mdash;</span>')+'</td><td class="num">'+(h.rehab_cost?fmt.format(h.rehab_cost):'<span class="cell-null">&mdash;</span>')+'</td><td class="num">'+(h.projected_sale_price?fmt.format(h.projected_sale_price):'<span class="cell-null">&mdash;</span>')+'</td><td class="num">'+net+'</td><td style="font-size:11px;color:var(--ink-mute)">'+esc(h.notes||'')+'</td>';
-    body.appendChild(tr);
-  }
-}
-
-function renderBvA(d){
-  const wrap=document.getElementById('bvaContent'),labelEl=document.getElementById('bvaLabel');
-  wrap.innerHTML='';
-  if(!d.budget_vs_actual){wrap.innerHTML='<div class="empty">Budget vs actual not available this week — P&L export was not uploaded.</div>';labelEl.textContent='';return;}
-  const b=d.budget_vs_actual;labelEl.textContent=b.month_label||'';
-  const pct=b.pct_through||Math.round((b.day_of_report/b.days_in_month)*100);
-  const meta=document.createElement('div');meta.className='bva-month-meta';
-  meta.innerHTML=`<div>Day ${b.day_of_report} of ${b.days_in_month}</div><div class="bva-day-marker"><div class="bva-day-track"><div class="bva-day-fill" style="width:${pct}%"></div></div><span class="bva-day-pct">${pct}%</span><span>through month</span></div>`;
-  wrap.appendChild(meta);
-  const sp=v=>{if(v===null||v===undefined)return '—';return(v>0?'+':'')+v.toFixed(1)+'%';};
-  const tWrap=document.createElement('div');tWrap.className='bva-table-wrap';
-  tWrap.innerHTML=`<table class="bva-table"><thead><tr><th></th><th colspan="4" class="section income">Income</th><th colspan="4" class="section expense col-divider">Expense</th></tr><tr class="colhead"><th>Entity</th><th class="num">Budget</th><th class="num">Actual</th><th class="num">Pace</th><th class="num">Var</th><th class="num col-divider">Budget</th><th class="num">Actual</th><th class="num">Pace</th><th class="num">Var</th></tr></thead><tbody>${(b.entities||[]).map(e=>{const iC=e.income_flag?'flag-bad':(e.income_variance_pct!==null&&e.income_variance_pct>=0?'flag-good':'');const xC=e.expense_flag?'flag-bad':(e.expense_variance_pct!==null&&e.expense_variance_pct<0?'flag-good':'');return`<tr><td>${esc(e.name)}</td><td class="num">${fmt.format(e.income_budget||0)}</td><td class="num">${fmt.format(e.income_actual||0)}</td><td class="num">${fmt.format(e.income_pace||0)}</td><td class="var-cell ${iC}">${sp(e.income_variance_pct)}</td><td class="num col-divider">${fmt.format(e.expense_budget||0)}</td><td class="num">${fmt.format(e.expense_actual||0)}</td><td class="num">${fmt.format(e.expense_pace||0)}</td><td class="var-cell ${xC}">${sp(e.expense_variance_pct)}</td></tr>`;}).join('')}</tbody></table>`;
-  wrap.appendChild(tWrap);
-}
-
-function renderMonthlyOutlook(d){
-  const block=document.getElementById('monthlyOutlookBlock');
-  if(!d.monthly_outlook){block.style.display='none';return;}
-  block.style.display='';
-  const o=d.monthly_outlook,label=document.getElementById('monthLabel'),grid=document.getElementById('monthGrid');
-  label.textContent=o.month_label||'';grid.innerHTML='';
-  [{label:'Budgeted Spend',value:fmt.format(o.budgeted_spend||0),sub:'this month'},{label:'Actual to Date',value:fmt.format(o.actual_to_date||0),sub:o.actual_to_date&&o.budgeted_spend?Math.round((o.actual_to_date/o.budgeted_spend)*100)+'% of budget':''},{label:'Expected Income',value:fmt.format(o.expected_income||0),sub:o.income_notes||''},{label:'Projected EOM Cash',value:fmt.format(o.projected_eom_cash||0),sub:'after known activity'}].forEach(c=>{const div=document.createElement('div');div.className='month-cell';div.innerHTML=`<div class="month-label-sm">${c.label}</div><div class="month-value">${c.value}</div>${c.sub?`<div class="month-sub">${esc(c.sub)}</div>`:''}`;grid.appendChild(div);});
+  const wrap=document.getElementById('watchlistContent');wrap.innerHTML='';
+  const pillCls=st=>{const k=(st||'').toUpperCase();
+    if(['FUNDED','COMMITTED','CONFIRMED'].includes(k))return'p-ok';
+    if(['WATCH','DEADLINE','OVERDUE'].includes(k))return'p-bad';
+    if(['FELL OFF','CLOSED','DONE'].includes(k))return'p-off';
+    return'p-warn';};
+  const mkTable=(items,isIncome)=>{
+    const rows=items.map(i=>{
+      const amtCls=i.amount===null||i.amount===undefined?'mute-t':(isIncome?'pos-t':'neg-t');
+      const amt=i.amount===null||i.amount===undefined?'TBD':fmt.format(i.amount);
+      let html='<tr>'
+        +'<td>'+esc(i.description||'')+'</td>'
+        +'<td>'+esc(i.entity||'')+'</td>'
+        +'<td>'+(i.date_added?fmtShort(i.date_added):'<span class="cell-null">&mdash;</span>')+'</td>'
+        +'<td>'+esc(i.expected||'')+'</td>'
+        +'<td><span class="wl-pill '+pillCls(i.status)+'">'+esc(i.status||'')+'</span></td>'
+        +'<td class="num '+amtCls+'">'+amt+'</td></tr>';
+      if(i.note)html+='<tr class="wl-note"><td colspan="6">'+esc(i.note)+'</td></tr>';
+      return html;}).join('');
+    const tot=items.reduce((s2,i)=>s2+(i.amount||0),0);
+    return '<table class="wl-table"><thead><tr><th>Item</th><th>Entity</th><th>Added</th><th>Expected</th><th>Status</th><th class="num">Amount</th></tr></thead><tbody>'
+      +rows+'<tr class="tot"><td colspan="5">'+(isIncome?'Total expected in':'Total expected out')
+      +'</td><td class="num '+(isIncome?'pos-t':'neg-t')+'">'+fmt.format(tot)+'</td></tr></tbody></table>';
+  };
+  const inc=wl.income||[],exp=wl.expenses||[];
+  let html='';
+  html+='<div class="wl-sub" style="color:var(--pos)">Sales &amp; bank funds expected</div>';
+  html+=inc.length?mkTable(inc,true):'<div class="empty">Nothing expected in.</div>';
+  html+='<div class="wl-sub" style="color:var(--neg)">Expenses on the watchlist</div>';
+  html+=exp.length?mkTable(exp,false):'<div class="empty">Nothing on the watchlist.</div>';
+  wrap.innerHTML=html;
 }
 
 function renderForecast(d){
   const wrap=document.getElementById('forecastContent');wrap.innerHTML='';
-  const items=d.forecast||d.next_month_preview||[];
-  if(!items.length){wrap.innerHTML='<div class="empty">Forecast not yet drafted for this week.</div>';return;}
-  for(const para of items){const div=document.createElement('div');div.className='forecast-item';div.innerHTML=para;wrap.appendChild(div);}
+  const eyebrow=document.getElementById('forecastEyebrow');
+  const f=d.forecast_table;
+  if(!f||!f.weeks||!f.weeks.length){
+    const items=d.forecast||d.next_month_preview||[];
+    if(!items.length){wrap.innerHTML='<div class="empty">Forecast not yet built for this week.</div>';return;}
+    for(const para of items){const div=document.createElement('div');div.className='forecast-item';div.innerHTML=para;wrap.appendChild(div);}
+    return;
+  }
+  const weeks=f.weeks;
+  if(eyebrow)eyebrow.textContent=weeks.length+' weeks · budget plus cash flow report';
+  const k=v=>{
+    if(v===null||v===undefined||v===0)return'<span class="cell-null">&ndash;</span>';
+    const a=Math.abs(v)/1000;
+    const t=(a>=100?a.toFixed(0):a.toFixed(1))+'k';
+    return v<0?'<span class="neg-t">('+t+')</span>':'<span class="pos-t">'+t+'</span>';
+  };
+  const plain=v=>{
+    if(v===null||v===undefined)return'<span class="cell-null">&ndash;</span>';
+    const a=Math.abs(v)/1000;
+    const t=(a>=100?a.toFixed(0):a.toFixed(1))+'k';
+    return v<0?'<span class="neg-t">('+t+')</span>':t;
+  };
+  const rowDefs=[
+    ['operating_income','Operating income','pos'],
+    ['operating_expense','Operating expense','neg'],
+    ['nonoperating_income','Non-operating income','pos'],
+    ['nonoperating_expense','Non-operating expense','neg'],
+    ['adjustments','Adjustments to net income','neg'],
+    ['investing','Investing activities','neg'],
+    ['financing','Financing activities','neg'],
+    ['watchlist_income','Watchlist income','pos','wlin'],
+    ['watchlist_expenses','Watchlist expenses','neg','wlout']
+  ];
+  let head='<tr><th class="lt">Week of</th>'+weeks.map(w=>'<th class="'+(w.rent_week?'rentwk':'')+'">'+esc(w.label)+'</th>').join('')+'</tr>';
+  let body='<tr><td class="lt">Opening cash</td>'+weeks.map(w=>'<td>'+plain(w.opening)+'</td>').join('')+'</tr>';
+  for(const rd of rowDefs){
+    const cls=rd[3]?' class="'+rd[3]+'"':'';
+    const color=rd[2]==='pos'?'var(--pos)':'var(--neg)';
+    const strong=rd[3]?'font-weight:600;':'';
+    body+='<tr'+cls+'><td class="lt" style="color:'+color+';'+strong+'">'+rd[1]+'</td>'
+      +weeks.map(w=>'<td>'+k(w[rd[0]])+'</td>').join('')+'</tr>';
+  }
+  body+='<tr class="totrow"><td class="lt">Total</td>'+weeks.map(w=>'<td>'+plain(w.total)+'</td>').join('')+'</tr>';
+  body+='<tr class="fundrow"><td class="lt">Funding source</td>'+weeks.map(w=>{
+    if(!w.funding_source)return'<td><span class="cell-null">&ndash;</span></td>';
+    const cls=w.funding_gap?'p-bad':'p-warn';
+    return'<td><span class="wl-pill '+cls+'">'+esc(w.funding_source)+'</span></td>';}).join('')+'</tr>';
+  let html='<div class="fc-wrap"><table class="fc-table"><thead>'+head+'</thead><tbody>'+body+'</tbody></table></div>';
+  for(const n of (f.notes||[])){
+    html+='<div class="fc-callout '+(n.tone==='bad'?'fc-bad':'fc-warn')+'">'+n.text+'</div>';
+  }
+  wrap.innerHTML=html;
 }
 
 function renderPanel(d){
@@ -498,9 +593,8 @@ async function showWeek(file){
       ALL_WEEKS[file]=data;
     }
     setMeta(data);setHero(data);renderPayables(data);renderEntities(data);
-    renderBarChart(data);renderTrendChart(ALL_WEEKS);
-    renderOtherObligations(data);renderHomeObligations(data);
-    renderBvA(data);renderMonthlyOutlook(data);renderForecast(data);renderPanel(data);
+    renderBarChart(data);renderTrendChart(ALL_WEEKS,file);
+    renderWatchlist(data);renderForecast(data);renderPanel(data);
   }catch(err){
     document.getElementById('main').innerHTML='<div style="padding:60px;text-align:center;color:var(--neg)"><strong>Error loading week data:</strong><br>'+err.message+'</div>';
     console.error(err);
@@ -525,6 +619,10 @@ function closePanel(){document.getElementById('panelOverlay').classList.remove('
     }
     if(!files.length)throw new Error('No weeks found in data/index.json');
     sel.value=files[0];
+    await Promise.all(files.slice(0,12).map(async f=>{
+      if(ALL_WEEKS[f])return;
+      try{const r=await fetch('data/'+f,{cache:'no-store'});if(r.ok)ALL_WEEKS[f]=await r.json();}catch(e){}
+    }));
     await showWeek(files[0]);
     sel.addEventListener('change',e=>showWeek(e.target.value));
     document.getElementById('notesToggle').addEventListener('click',openPanel);
