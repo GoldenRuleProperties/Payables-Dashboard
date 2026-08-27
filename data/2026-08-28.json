@@ -309,35 +309,6 @@
     "note": "Carried five weeks. Not on the 8/28 bill run. Confirm status with Justin."
    },
    {
-    "description": "RMF Indiana basement flood plus sewer",
-    "entity": "RMF",
-    "bank": "1001 BofA - RMF *6741",
-    "date_added": "2026-07-27",
-    "expected": "Week of 9/4",
-    "status": "URGENT",
-    "amount": 3900,
-    "note": "$3,900 is a floor, not an estimate. Basement found completely flooded. Scope and cost still unknown. RMF has $4,974 available."
-   },
-   {
-    "description": "43 Waterway electrical conduit",
-    "entity": "CP",
-    "bank": "1032 KSB - GRP *4264",
-    "date_added": "2026-08-10",
-    "expected": "Week of 9/4",
-    "status": "COMMITTED",
-    "amount": 2550
-   },
-   {
-    "description": "RE-43 demo balance, To Do Property Cleanup",
-    "entity": "RE",
-    "bank": "1000 KVSB - RE *4605",
-    "date_added": "2026-07-30",
-    "expected": "Week of 9/4",
-    "status": "COMMITTED",
-    "amount": 1250,
-    "note": "$3,500 already paid 7/31."
-   },
-   {
     "description": "FS2:034 rehab, Rico",
     "entity": "FS",
     "bank": "1032 KSB - GRP *4264",
@@ -352,10 +323,10 @@
     "entity": "FS",
     "bank": "1030 KSB - FS *6163",
     "date_added": "2026-07-16",
-    "expected": "Sep 10",
-    "status": "DEADLINE",
-    "amount": null,
-    "note": "Hard city deadline. Amount still TBD. Excluded from the forecast until it has a number."
+    "expected": "Week of 9/4",
+    "status": "COMMITTED",
+    "amount": 3500,
+    "note": "$3,500 confirmed by Trent on 8/20. To Do Property Cleanup. Bill not yet received. Hard city deadline Sep 10."
    }
   ]
  },
@@ -381,7 +352,7 @@
    {
     "label": "9/4",
     "opening": 150670.43,
-    "total": 259702.19,
+    "total": 264052.19,
     "rent_week": true,
     "funding_source": null,
     "funding_gap": false,
@@ -393,12 +364,12 @@
     "investing": -6471.82,
     "financing": -4166.11,
     "watchlist_income": 2000.0,
-    "watchlist_expenses": -13750.0
+    "watchlist_expenses": -9400.0
    },
    {
     "label": "9/11",
-    "opening": 259702.19,
-    "total": 218124.58,
+    "opening": 264052.19,
+    "total": 222474.58,
     "rent_week": true,
     "funding_source": null,
     "funding_gap": false,
@@ -414,8 +385,8 @@
    },
    {
     "label": "9/18",
-    "opening": 218124.58,
-    "total": 85947.25,
+    "opening": 222474.58,
+    "total": 90297.25,
     "rent_week": false,
     "funding_source": null,
     "funding_gap": false,
@@ -431,8 +402,8 @@
    },
    {
     "label": "9/25",
-    "opening": 85947.25,
-    "total": 82703.79,
+    "opening": 90297.25,
+    "total": 87053.79,
     "rent_week": false,
     "funding_source": null,
     "funding_gap": false,
@@ -448,8 +419,8 @@
    },
    {
     "label": "10/2",
-    "opening": 82703.79,
-    "total": 203828.14,
+    "opening": 87053.79,
+    "total": 208178.14,
     "rent_week": true,
     "funding_source": null,
     "funding_gap": false,
@@ -465,8 +436,8 @@
    },
    {
     "label": "10/9",
-    "opening": 203828.14,
-    "total": 180139.01,
+    "opening": 208178.14,
+    "total": 184489.01,
     "rent_week": true,
     "funding_source": null,
     "funding_gap": false,
@@ -482,8 +453,8 @@
    },
    {
     "label": "10/16",
-    "opening": 180139.01,
-    "total": 63040.48,
+    "opening": 184489.01,
+    "total": 67390.48,
     "rent_week": false,
     "funding_source": null,
     "funding_gap": false,
@@ -499,8 +470,8 @@
    },
    {
     "label": "10/23",
-    "opening": 63040.48,
-    "total": 52697.5,
+    "opening": 67390.48,
+    "total": 57047.5,
     "rent_week": false,
     "funding_source": null,
     "funding_gap": false,
@@ -518,7 +489,7 @@
   "notes": [
    {
     "tone": "warn",
-    "text": "The forecast does not go short in the nine week window. Low point is <strong>$52,697 the week of 10/23</strong>. Opening cash is $87,522, down from $148,696 last week, so the forecast runs from a materially lower base than a week ago. Committed watchlist spend of $20,750 falls in the first two weeks of September."
+    "text": "The forecast does not go short in the nine week window. Low point is <strong>$57,048 the week of 10/23</strong>. Opening cash is $87,522, down from $148,696 last week, so the forecast runs from a materially lower base than a week ago. Committed watchlist spend of $16,400 falls in the first two weeks of September."
    },
    {
     "tone": "warn",
@@ -535,7 +506,7 @@
   "<strong>Available cash fell $48,161 in one week</strong> on a $5,288 bill run. Countryside accounts for $68,615 of the movement, a one time loan to GRP that does not recur. Group Group took in $45,000 of park distributions on 8/21 and paid out Tim's distribution before 8/28, returning to $87. Both are explained and neither changes the forward run rate.",
   "<strong>GRP recovered fully.</strong> Available moved from negative $51,072 to positive $6,397 with no uncleared transactions, the cleanest GRP position since June. The Countryside loan funded that recovery, so the underlying pattern of GRP paying closing costs on behalf of the property entities is unchanged and will recur.",
   "<strong>Six of nine entities are below $6,600.</strong> Country Aire projects to $1,446, Decade Acres to $3,036, Riverside to $4,514, RMF to $4,620, Winterwood to $6,237 and Countryside to $5,120. Group Group sits at $87. No entity has meaningful capacity to fund another entity this week, which is a change from every prior week where Countryside was the backstop.",
-  "<strong>The forecast does not go short</strong> in the nine week window, bottoming at $52,697 on 10/23. That is a better picture than last week despite the lower opening, because $45,000 of distributions have now cleared rather than sitting ahead of us. Committed watchlist spend of $20,750 lands in the first two weeks of September.",
+  "<strong>The forecast does not go short</strong> in the nine week window, bottoming at $57,048 on 10/23. That is a better picture than last week despite the lower opening, because $45,000 of distributions have now cleared rather than sitting ahead of us. Committed watchlist spend of $16,400 lands in the first two weeks of September: the WW:11A roof at $5,900, the FS1:23 demo at $3,500 and the WW:6D lien release at $7,000.",
   "<strong>Rico has been on the watchlist five weeks</strong> at $7,110 for the 44 Waterway rehab and did not appear on this run. The 8/10 review had it three quarters complete. Status needs confirming. WW:25A is new this week with $1,829 already paid through GRP and no scope on record.",
   "<strong>Two homes carry signed purchase agreements.</strong> FS2:056 is in financing with the Vincent lien to be paid from buyer loan funding rather than GRP cash. WW:6D awaits appraisal and carries a $7,000 lien to Vincent on closing. Neither has a date. Home Tracker lien amounts remain blank, so no net proceeds figure can be produced on any sale."
  ],
