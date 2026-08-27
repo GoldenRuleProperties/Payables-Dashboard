@@ -1,0 +1,549 @@
+{
+ "meta": {
+  "week_ending": "2026-08-28",
+  "prepared_by": "Beth Dandini",
+  "historical": false
+ },
+ "entities": [
+  {
+   "name": "Country Aire",
+   "code": "CA",
+   "bank_balance": 5098.28,
+   "available": 1696.28,
+   "payments": 250.0,
+   "deposits": 0.0,
+   "projected": 1446.28
+  },
+  {
+   "name": "Countryside",
+   "code": "CP",
+   "bank_balance": 20765.14,
+   "available": 5245.14,
+   "payments": 125.0,
+   "deposits": 0.0,
+   "projected": 5120.14
+  },
+  {
+   "name": "Decade Acres",
+   "code": "DA",
+   "bank_balance": 7570.61,
+   "available": 3035.61,
+   "payments": 0.0,
+   "deposits": 0.0,
+   "projected": 3035.61
+  },
+  {
+   "name": "Four Seasons",
+   "code": "FS",
+   "bank_balance": 18342.83,
+   "available": 10334.83,
+   "payments": 800.0,
+   "deposits": 0.0,
+   "projected": 9534.83
+  },
+  {
+   "name": "Golden Rule Practices",
+   "code": "GRP",
+   "bank_balance": 6397.17,
+   "available": 6397.17,
+   "payments": 3982.18,
+   "deposits": 0.0,
+   "projected": 2414.99
+  },
+  {
+   "name": "Group Group",
+   "code": "GG",
+   "bank_balance": 87.18,
+   "available": 87.18,
+   "payments": 0.0,
+   "deposits": 0.0,
+   "projected": 87.18
+  },
+  {
+   "name": "Riverside Estates",
+   "code": "RE",
+   "bank_balance": 9048.89,
+   "available": 4513.89,
+   "payments": 0.0,
+   "deposits": 0.0,
+   "projected": 4513.89
+  },
+  {
+   "name": "RMF",
+   "code": "RMF",
+   "bank_balance": 4974.28,
+   "available": 4620.28,
+   "payments": 0.0,
+   "deposits": 0.0,
+   "projected": 4620.28
+  },
+  {
+   "name": "Winterwood",
+   "code": "WW",
+   "bank_balance": 15238.09,
+   "available": 6592.09,
+   "payments": 355.0,
+   "deposits": 0.0,
+   "projected": 6237.09
+  }
+ ],
+ "payables": [
+  {
+   "vendor": "Brockman Lawn Care",
+   "amount": 700.0,
+   "memo": "FS1: 15 Roof Repair",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Clayton Evans",
+   "amount": 568.75,
+   "memo": "WW: 25A",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Genesis Lawn",
+   "amount": 250.0,
+   "memo": "CA Landscaping  Service Date: 08/19",
+   "entity": "CA",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Jeff House",
+   "amount": 355.0,
+   "memo": "8.17.26-8.22.26",
+   "entity": "WW",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Joshuah Muse",
+   "amount": 300.0,
+   "memo": "WW: 25A Labor",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Kodey Gilpin",
+   "amount": 960.0,
+   "memo": "WW: 25A",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Lawn & Order JC",
+   "amount": 800.0,
+   "memo": "Mowing",
+   "entity": "FS",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Royal Supply",
+   "amount": 29.35,
+   "memo": "DRAIN METAL TUB W/STOPPER 1 1/2",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "The Zervice Co",
+   "amount": 125.0,
+   "memo": "Commercial mower rental",
+   "entity": "CP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Bookkeeping By Beth",
+   "amount": 1424.08,
+   "memo": "50.86 Hours",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": true
+  }
+ ],
+ "watchlist": {
+  "income": [
+   {
+    "description": "WW:3G closing, Bradley Berry via Triad",
+    "entity": "WW",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-03",
+    "expected": "Week of 9/4",
+    "status": "COMMITTED",
+    "amount": 2000,
+    "note": "Carried three weeks. One document outstanding from Bradley Berry, then closes autonomously through Triad."
+   },
+   {
+    "description": "WW:6D closing",
+    "entity": "WW",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-26",
+    "expected": "Awaiting appraisal",
+    "status": "COMMITTED",
+    "amount": null,
+    "note": "Signed purchase agreement, waiting on appraisal. Sale price not yet set. Justin travelling out for the closing."
+   },
+   {
+    "description": "2125 Patricia listed",
+    "entity": "CP",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-10",
+    "expected": "No date",
+    "status": "OPEN",
+    "amount": 35000
+   },
+   {
+    "description": "FS2:056 sale at reduced price",
+    "entity": "FS",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-03",
+    "expected": "Coming weeks",
+    "status": "COMMITTED",
+    "amount": 25000,
+    "note": "Signed purchase agreement from Jessica Rehnquist, in financing. Lien to Vincent paid from buyer loan funding at closing, so it does not touch GRP cash."
+   },
+   {
+    "description": "2015 West 3rd sale",
+    "entity": "CP",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-10",
+    "expected": "After light turn",
+    "status": "OPEN",
+    "amount": 22000,
+    "note": "Range $19,000 to $25,000."
+   },
+   {
+    "description": "FS1:20 as-is cash sale",
+    "entity": "FS",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-03",
+    "expected": "Beyond 60 days",
+    "status": "OPEN",
+    "amount": 15500
+   },
+   {
+    "description": "CP:20Powerline as-is sale to Mara",
+    "entity": "CP",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-10",
+    "expected": "Quiet title required",
+    "status": "OPEN",
+    "amount": 10000
+   },
+   {
+    "description": "RE:35 consignment sale",
+    "entity": "RE",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-03",
+    "expected": "Beyond 60 days",
+    "status": "OPEN",
+    "amount": 2000
+   },
+   {
+    "description": "CP:9Corey / 9 Quarry",
+    "entity": "CP",
+    "bank": "",
+    "date_added": "2026-08-03",
+    "expected": "Stalled",
+    "status": "NET ZERO",
+    "amount": 0
+   }
+  ],
+  "expenses": [
+   {
+    "description": "WW:25A make ready",
+    "entity": "WW",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-28",
+    "expected": "In progress",
+    "status": "OPEN",
+    "amount": null,
+    "note": "New this week. $1,828.75 already paid through GRP across Clayton Evans, Kodey Gilpin and Joshuah Muse. Total scope not yet known."
+   },
+   {
+    "description": "WW:6D lien release to Vincent",
+    "entity": "WW",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-26",
+    "expected": "Week of 9/11",
+    "status": "COMMITTED",
+    "amount": 7000,
+    "note": "Owed to Vincent once WW:6D sells. Tied to the closing date, which is not yet set."
+   },
+   {
+    "description": "WW:11A roof, Hambo",
+    "entity": "WW",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-26",
+    "expected": "Week of 9/4",
+    "status": "COMMITTED",
+    "amount": 5900,
+    "note": "Range $5,800 to $5,900, high end used. GRP pays to prevent a $60,000 PEP buyback. Tenants are repaying GRP, so recovery is expected but is not in the forecast."
+   },
+   {
+    "description": "Rico labor, 44 Waterway rehab",
+    "entity": "CP",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-07-27",
+    "expected": "No date",
+    "status": "OPEN",
+    "amount": 7110,
+    "note": "Carried five weeks. Not on the 8/28 bill run. Confirm status with Justin."
+   },
+   {
+    "description": "RMF Indiana basement flood plus sewer",
+    "entity": "RMF",
+    "bank": "1001 BofA - RMF *6741",
+    "date_added": "2026-07-27",
+    "expected": "Week of 9/4",
+    "status": "URGENT",
+    "amount": 3900,
+    "note": "$3,900 is a floor, not an estimate. Basement found completely flooded. Scope and cost still unknown. RMF has $4,974 available."
+   },
+   {
+    "description": "43 Waterway electrical conduit",
+    "entity": "CP",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-10",
+    "expected": "Week of 9/4",
+    "status": "COMMITTED",
+    "amount": 2550
+   },
+   {
+    "description": "RE-43 demo balance, To Do Property Cleanup",
+    "entity": "RE",
+    "bank": "1000 KVSB - RE *4605",
+    "date_added": "2026-07-30",
+    "expected": "Week of 9/4",
+    "status": "COMMITTED",
+    "amount": 1250,
+    "note": "$3,500 already paid 7/31."
+   },
+   {
+    "description": "FS2:034 rehab, Rico",
+    "entity": "FS",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-07-29",
+    "expected": "Q4",
+    "status": "OPEN",
+    "amount": 15000,
+    "note": "Gilmore bid rejected at $26,000. Reverts to Rico at roughly $15,000, behind FS2:046 and FS2:047."
+   },
+   {
+    "description": "FS1:23 demo",
+    "entity": "FS",
+    "bank": "1030 KSB - FS *6163",
+    "date_added": "2026-07-16",
+    "expected": "Sep 10",
+    "status": "DEADLINE",
+    "amount": null,
+    "note": "Hard city deadline. Amount still TBD. Excluded from the forecast until it has a number."
+   }
+  ]
+ },
+ "forecast_table": {
+  "weeks": [
+   {
+    "label": "8/28",
+    "opening": 87522.47,
+    "total": 150670.43,
+    "rent_week": false,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 87585.97,
+    "operating_expense": -5512.18,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -8044.86,
+    "adjustments": -3799.42,
+    "investing": -3235.91,
+    "financing": -3845.64,
+    "watchlist_income": 0.0,
+    "watchlist_expenses": 0.0
+   },
+   {
+    "label": "9/4",
+    "opening": 150670.43,
+    "total": 259702.19,
+    "rent_week": true,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 157823.89,
+    "operating_expense": -10627.45,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -8177.9,
+    "adjustments": -7598.85,
+    "investing": -6471.82,
+    "financing": -4166.11,
+    "watchlist_income": 2000.0,
+    "watchlist_expenses": -13750.0
+   },
+   {
+    "label": "9/11",
+    "opening": 259702.19,
+    "total": 218124.58,
+    "rent_week": true,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 111870.4,
+    "operating_expense": -55637.82,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -66612.67,
+    "adjustments": -7598.85,
+    "investing": -6471.82,
+    "financing": -10126.85,
+    "watchlist_income": 0.0,
+    "watchlist_expenses": -7000.0
+   },
+   {
+    "label": "9/18",
+    "opening": 218124.58,
+    "total": 85947.25,
+    "rent_week": false,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 18456.73,
+    "operating_expense": -25630.9,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -64977.09,
+    "adjustments": -7598.85,
+    "investing": -6471.82,
+    "financing": -45955.4,
+    "watchlist_income": 0.0,
+    "watchlist_expenses": 0.0
+   },
+   {
+    "label": "9/25",
+    "opening": 85947.25,
+    "total": 82703.79,
+    "rent_week": false,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 88140.31,
+    "operating_expense": -64546.12,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -8921.34,
+    "adjustments": -7598.85,
+    "investing": -6471.82,
+    "financing": -3845.64,
+    "watchlist_income": 0.0,
+    "watchlist_expenses": 0.0
+   },
+   {
+    "label": "10/2",
+    "opening": 82703.79,
+    "total": 203828.14,
+    "rent_week": true,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 157342.04,
+    "operating_expense": -12178.8,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -5802.11,
+    "adjustments": -7598.85,
+    "investing": -6471.82,
+    "financing": -4166.11,
+    "watchlist_income": 0.0,
+    "watchlist_expenses": 0.0
+   },
+   {
+    "label": "10/9",
+    "opening": 203828.14,
+    "total": 180139.01,
+    "rent_week": true,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 111528.85,
+    "operating_expense": -63759.6,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -47260.86,
+    "adjustments": -7598.85,
+    "investing": -6471.82,
+    "financing": -10126.85,
+    "watchlist_income": 0.0,
+    "watchlist_expenses": 0.0
+   },
+   {
+    "label": "10/16",
+    "opening": 180139.01,
+    "total": 63040.48,
+    "rent_week": false,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 18400.38,
+    "operating_expense": -29372.4,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -46100.44,
+    "adjustments": -7598.85,
+    "investing": -6471.82,
+    "financing": -45955.4,
+    "watchlist_income": 0.0,
+    "watchlist_expenses": 0.0
+   },
+   {
+    "label": "10/23",
+    "opening": 63040.48,
+    "total": 52697.5,
+    "rent_week": false,
+    "funding_source": null,
+    "funding_gap": false,
+    "operating_income": 87871.21,
+    "operating_expense": -73968.3,
+    "nonoperating_income": 0.0,
+    "nonoperating_expense": -6329.58,
+    "adjustments": -7598.85,
+    "investing": -6471.82,
+    "financing": -3845.64,
+    "watchlist_income": 0.0,
+    "watchlist_expenses": 0.0
+   }
+  ],
+  "notes": [
+   {
+    "tone": "warn",
+    "text": "The forecast does not go short in the nine week window. Low point is <strong>$52,697 the week of 10/23</strong>. Opening cash is $87,522, down from $148,696 last week, so the forecast runs from a materially lower base than a week ago. Committed watchlist spend of $20,750 falls in the first two weeks of September."
+   },
+   {
+    "tone": "warn",
+    "text": "Two sales carry signed purchase agreements, FS2:056 and WW:6D, and neither has a closing date so neither is in these numbers. Identified pipeline totals $111,500. Weekly timing comes from eight weeks of actual cash flow; levels come from the Fiscal Year Budget."
+   }
+  ]
+ },
+ "budget_vs_actual": null,
+ "monthly_outlook": null,
+ "other_obligations": null,
+ "home_obligations": null,
+ "cfo_summary": [
+  "<strong>Total available cash is $42,522</strong> against a true bank balance of $87,522, the lowest available position in sixteen weeks. After <strong>$5,512 in external payments</strong>, projected end of week is <strong>$37,010</strong>. Ten bills, no intercompany transfers.",
+  "<strong>Available cash fell $48,161 in one week</strong> on a $5,288 bill run. Countryside accounts for $68,615 of the movement, a one time loan to GRP that does not recur. Group Group took in $45,000 of park distributions on 8/21 and paid out Tim's distribution before 8/28, returning to $87. Both are explained and neither changes the forward run rate.",
+  "<strong>GRP recovered fully.</strong> Available moved from negative $51,072 to positive $6,397 with no uncleared transactions, the cleanest GRP position since June. The Countryside loan funded that recovery, so the underlying pattern of GRP paying closing costs on behalf of the property entities is unchanged and will recur.",
+  "<strong>Six of nine entities are below $6,600.</strong> Country Aire projects to $1,446, Decade Acres to $3,036, Riverside to $4,514, RMF to $4,620, Winterwood to $6,237 and Countryside to $5,120. Group Group sits at $87. No entity has meaningful capacity to fund another entity this week, which is a change from every prior week where Countryside was the backstop.",
+  "<strong>The forecast does not go short</strong> in the nine week window, bottoming at $52,697 on 10/23. That is a better picture than last week despite the lower opening, because $45,000 of distributions have now cleared rather than sitting ahead of us. Committed watchlist spend of $20,750 lands in the first two weeks of September.",
+  "<strong>Rico has been on the watchlist five weeks</strong> at $7,110 for the 44 Waterway rehab and did not appear on this run. The 8/10 review had it three quarters complete. Status needs confirming. WW:25A is new this week with $1,829 already paid through GRP and no scope on record.",
+  "<strong>Two homes carry signed purchase agreements.</strong> FS2:056 is in financing with the Vincent lien to be paid from buyer loan funding rather than GRP cash. WW:6D awaits appraisal and carries a $7,000 lien to Vincent on closing. Neither has a date. Home Tracker lien amounts remain blank, so no net proceeds figure can be produced on any sale."
+ ],
+ "for_ownership": {
+  "label": "Projected end-of-week cash",
+  "number": 37010.29,
+  "paragraph": "We close this week at roughly $37,000 available across all accounts after a light bill run of $5,500. Available cash dropped sharply this week, but both causes are known: Countryside made a one time loan to Golden Rule Practices to clear its overdraft, and Group Group paid out your distribution. Golden Rule Practices is now fully recovered and clean for the first time since June. The portfolio is thin across the board this week, with six of the nine accounts under $6,600, so there is no obvious source if something unexpected comes up before rent lands next week. Looking out sixty days the business covers itself without needing a home to close, though two homes are under contract and would improve the picture."
+ },
+ "forecast": [],
+ "recap_notes": []
+}
