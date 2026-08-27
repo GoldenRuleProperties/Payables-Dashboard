@@ -208,7 +208,8 @@
     "date_added": "2026-08-10",
     "expected": "No date",
     "status": "OPEN",
-    "amount": 35000
+    "amount": 35000,
+    "note": "Listed 8/10 at $35,000 sale only. Proceeds retire the PEP promissory note of $27,687.48 plus roughly $2,215 of accrued interest, netting about $5,100 to GRP. The sale is the exit on the Swearingen buyback."
    },
    {
     "description": "FS2:056 sale at reduced price",
@@ -489,7 +490,7 @@
   "notes": [
    {
     "tone": "warn",
-    "text": "The forecast does not go short in the nine week window. Low point is <strong>$57,048 the week of 10/23</strong>. Opening cash is $87,522, down from $148,696 last week, so the forecast runs from a materially lower base than a week ago. Committed watchlist spend of $16,400 falls in the first two weeks of September."
+    "text": "The forecast does not go short in the nine week window. Low point is <strong>$57,048 the week of 10/23</strong>. Opening cash is $87,522, down from $148,696 last week, so the forecast runs from a materially lower base. Committed watchlist spend inside the window is $16,400. The PEP floor plan payoff of $29,903 comes due 11/29, roughly five weeks past the end of this window."
    },
    {
     "tone": "warn",
@@ -506,9 +507,10 @@
   "<strong>Available cash fell $48,161 in one week</strong> on a $5,288 bill run. Countryside accounts for $68,615 of the movement, a one time loan to GRP that does not recur. Group Group took in $45,000 of park distributions on 8/21 and paid out Tim's distribution before 8/28, returning to $87. Both are explained and neither changes the forward run rate.",
   "<strong>GRP recovered fully.</strong> Available moved from negative $51,072 to positive $6,397 with no uncleared transactions, the cleanest GRP position since June. The Countryside loan funded that recovery, so the underlying pattern of GRP paying closing costs on behalf of the property entities is unchanged and will recur.",
   "<strong>Six of nine entities are below $6,600.</strong> Country Aire projects to $1,446, Decade Acres to $3,036, Riverside to $4,514, RMF to $4,620, Winterwood to $6,237 and Countryside to $5,120. Group Group sits at $87. No entity has meaningful capacity to fund another entity this week, which is a change from every prior week where Countryside was the backstop.",
-  "<strong>The forecast does not go short</strong> in the nine week window, bottoming at $57,048 on 10/23. That is a better picture than last week despite the lower opening, because $45,000 of distributions have now cleared rather than sitting ahead of us. Committed watchlist spend of $16,400 lands in the first two weeks of September: the WW:11A roof at $5,900, the FS1:23 demo at $3,500 and the WW:6D lien release at $7,000.",
+  "<strong>The forecast does not go short</strong> in the nine week window, bottoming at $57,048 on 10/23. Committed watchlist spend inside the window is $16,400: the WW:11A roof at $5,900, the FS1:23 demo at $3,500 and the WW:6D lien release at $7,000.",
   "<strong>Rico has been on the watchlist five weeks</strong> at $7,110 for the 44 Waterway rehab and did not appear on this run. The 8/10 review had it three quarters complete. Status needs confirming. WW:25A is new this week with $1,829 already paid through GRP and no scope on record.",
-  "<strong>Two homes carry signed purchase agreements.</strong> FS2:056 is in financing with the Vincent lien to be paid from buyer loan funding rather than GRP cash. WW:6D awaits appraisal and carries a $7,000 lien to Vincent on closing. Neither has a date. Home Tracker lien amounts remain blank, so no net proceeds figure can be produced on any sale."
+  "<strong>Two homes carry signed purchase agreements.</strong> FS2:056 is in financing with the Vincent lien to be paid from buyer loan funding rather than GRP cash. WW:6D awaits appraisal and carries a $7,000 lien to Vincent on closing. Neither has a date. Home Tracker lien amounts remain blank, so no net proceeds figure can be produced on any sale.",
+  "<strong>The PEP floor plan note comes due November 29.</strong> Principal is $27,687.48 at 16 percent on the Swearingen buyback, now 2125 Patricia, with a payoff of roughly $29,900 including interest. The home is listed at $35,000, so a sale before the repayment date retires the note and nets GRP about $5,100. Two homes carry buyback exposure beyond that: WW:11A at $60,000, where a voluntary surrender was submitted and GRP is funding a $5,900 roof to prevent it, and Decade Acres 54 at $30,405 with the borrower 54 days behind."
  ],
  "for_ownership": {
   "label": "Projected end-of-week cash",
@@ -516,5 +518,35 @@
   "paragraph": "We close this week at roughly $37,000 available across all accounts after a light bill run of $5,500. Available cash dropped sharply this week, but both causes are known: Countryside made a one time loan to Golden Rule Practices to clear its overdraft, and Group Group paid out your distribution. Golden Rule Practices is now fully recovered and clean for the first time since June. The portfolio is thin across the board this week, with six of the nine accounts under $6,600, so there is no obvious source if something unexpected comes up before rent lands next week. Looking out sixty days the business covers itself without needing a home to close, though two homes are under contract and would improve the picture."
  },
  "forecast": [],
- "recap_notes": []
+ "recap_notes": [],
+ "pep_buybacks": {
+  "floor_plan": [
+   {
+    "home": "2125 Patricia",
+    "entity": "CP",
+    "due": "Nov 29, 2026",
+    "status": "ON FLOOR PLAN",
+    "payoff": 29903,
+    "note": "Swearingen buyback. Promissory note dated 5/29/26, principal $27,687.48 at 16 percent, six month term, prepayable without penalty. Payoff shown includes accrued interest. Home listed 8/10 at $35,000; a sale before the repayment date retires the note and nets GRP roughly $5,100."
+   }
+  ],
+  "exposure": [
+   {
+    "home": "WW:11A",
+    "entity": "WW",
+    "trigger": "Voluntary surrender submitted",
+    "status": "PREVENTED",
+    "payoff": 60000,
+    "note": "Older couple, current with GRP and with PEP. Tenant submitted a voluntary surrender form citing mold exposure; Justin inspected and found no mold. The surrender has not gone through. GRP is funding a $5,900 roof repair to prevent the buyback and the tenants are repaying GRP. The $60,000 is exposure avoided, not cash expected. Roof cost sits on the watchlist."
+   },
+   {
+    "home": "Decade Acres 54",
+    "entity": "DA",
+    "trigger": "Tenant 54 days behind with PEP",
+    "status": "POTENTIAL",
+    "payoff": 30405,
+    "note": "Payoff $30,405 as of end of July. PEP notified Justin the borrower was 54 days behind. Next due date read 7/01, suggesting a promise to pay, so she may return to the delinquency report. No date."
+   }
+  ]
+ }
 }

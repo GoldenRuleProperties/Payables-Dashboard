@@ -241,6 +241,17 @@ table.obl-table tbody td:first-child{font-weight:500;}
 .fc-bad{background:var(--neg-soft);color:var(--neg);}
 .fc-warn{background:var(--warn-soft);color:var(--warn);}
 .pos-t{color:var(--pos);} .neg-t{color:var(--neg);} .mute-t{color:var(--ink-mute);}
+
+/* --- PEP buybacks --- */
+.pep-sub{font-size:11px;text-transform:uppercase;letter-spacing:0.12em;font-weight:600;margin:22px 0 10px;}
+.pep-sub:first-child{margin-top:0;}
+.pep-table{width:100%;border-collapse:collapse;font-size:12px;}
+.pep-table th{font-size:10px;text-transform:uppercase;letter-spacing:0.1em;color:var(--ink-mute);font-weight:600;border-bottom:1px solid var(--rule);padding:0 10px 8px;text-align:left;}
+.pep-table th.num{text-align:right;}
+.pep-table td{padding:9px 10px;border-bottom:1px dotted var(--rule-soft);vertical-align:top;}
+.pep-table td.num{text-align:right;}
+.pep-table tr.tot td{font-weight:600;background:var(--paper);border-top:1px solid var(--rule);border-bottom:none;}
+.pep-note td{font-size:11px;color:var(--ink-mute);padding:0 10px 9px;border-bottom:1px dotted var(--rule-soft);}
 </style>
 </head>
 <body>
@@ -286,6 +297,7 @@ table.obl-table tbody td:first-child{font-weight:500;}
   </section>
 
   <section class="block" id="watchlistBlock"><div class="block-head"><h2>Watchlist</h2><span class="eyebrow">feeds the watchlist rows in the forecast</span></div><div id="watchlistContent"></div></section>
+  <section class="block" id="pepBlock"><div class="block-head"><h2>PEP Buybacks</h2><span class="eyebrow">floor plan &amp; exposure</span></div><div id="pepContent"></div></section>
   <section class="block" id="forecastBlock"><div class="block-head"><h2>Forecast</h2><span class="eyebrow" id="forecastEyebrow">nine weeks &middot; budget plus cash flow report</span></div><div id="forecastContent" class="forecast-block"></div></section>
 </main>
 
@@ -515,6 +527,36 @@ function renderWatchlist(d){
   wrap.innerHTML=html;
 }
 
+function renderPEP(d){
+  const block=document.getElementById('pepBlock');
+  const p=d.pep_buybacks;
+  if(!p||((!p.floor_plan||!p.floor_plan.length)&&(!p.exposure||!p.exposure.length))){block.style.display='none';return;}
+  block.style.display='';
+  const wrap=document.getElementById('pepContent');
+  const pill=st=>{const k=(st||'').toUpperCase();
+    if(k==='ON FLOOR PLAN')return'p-warn'; if(k==='POTENTIAL')return'p-bad';
+    if(k==='PREVENTED'||k==='RESOLVED')return'p-ok'; return'p-off';};
+  const amt=v=>v===null||v===undefined?'<span class="cell-null">TBD</span>':fmt.format(v);
+  const mk=(items,cols)=>{
+    const rows=items.map(i=>{
+      let h='<tr><td>'+esc(i.home||'')+'</td><td>'+esc(i.entity||'')+'</td>'
+        +(cols?'<td>'+esc(i.due||'')+'</td>':'<td>'+esc(i.trigger||'')+'</td>')
+        +'<td><span class="wl-pill '+pill(i.status)+'">'+esc(i.status||'')+'</span></td>'
+        +'<td class="num">'+amt(i.payoff)+'</td></tr>';
+      if(i.note)h+='<tr class="pep-note"><td colspan="5">'+esc(i.note)+'</td></tr>';
+      return h;}).join('');
+    const tot=items.reduce((s2,i)=>s2+(i.payoff||0),0);
+    return'<table class="pep-table"><thead><tr><th>Home</th><th>Entity</th><th>'
+      +(cols?'Due':'Trigger')+'</th><th>Status</th><th class="num">Payoff</th></tr></thead><tbody>'
+      +rows+'<tr class="tot"><td colspan="4">Total</td><td class="num">'+fmt.format(tot)+'</td></tr></tbody></table>';};
+  let html='';
+  if(p.floor_plan&&p.floor_plan.length){
+    html+='<div class="pep-sub" style="color:var(--warn)">On floor plan</div>'+mk(p.floor_plan,true);}
+  if(p.exposure&&p.exposure.length){
+    html+='<div class="pep-sub" style="color:var(--neg)">Buyback exposure</div>'+mk(p.exposure,false);}
+  wrap.innerHTML=html;
+}
+
 function renderForecast(d){
   const wrap=document.getElementById('forecastContent');wrap.innerHTML='';
   const eyebrow=document.getElementById('forecastEyebrow');
@@ -594,7 +636,7 @@ async function showWeek(file){
     }
     setMeta(data);setHero(data);renderPayables(data);renderEntities(data);
     renderBarChart(data);renderTrendChart(ALL_WEEKS,file);
-    renderWatchlist(data);renderForecast(data);renderPanel(data);
+    renderWatchlist(data);renderPEP(data);renderForecast(data);renderPanel(data);
   }catch(err){
     document.getElementById('main').innerHTML='<div style="padding:60px;text-align:center;color:var(--neg)"><strong>Error loading week data:</strong><br>'+err.message+'</div>';
     console.error(err);
