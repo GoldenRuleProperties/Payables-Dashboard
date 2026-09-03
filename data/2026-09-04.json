@@ -308,17 +308,17 @@
     "expected": "No date",
     "status": "OPEN",
     "amount": 35000,
-    "note": "Listed 8/10 at $35,000 sale only. Inquiries but no applicants as of 8/27. Trent directed that WW:6D excess proceeds retire the floor plan note rather than waiting for this sale, because PEP title return is slow."
+    "note": "Make ready completed, behind the Aug 10 target. Listed at $35,000 sale only. Inquiries but no applicants as of 8/27. Trent directed that WW:6D excess proceeds retire the floor plan note rather than waiting for this sale, because PEP takes two to four months to return a title."
    },
    {
-    "description": "FS2:056 sale at reduced price",
+    "description": "FS2:056 sale",
     "entity": "FS",
     "bank": "1032 KSB - GRP *4264",
     "date_added": "2026-08-03",
-    "expected": "Coming weeks",
+    "expected": "Pending sale",
     "status": "COMMITTED",
     "amount": 30000,
-    "note": "Price raised to $30,000 per Justin on 8/27, up from the $25,000 reduction. Signed purchase agreement from Jessica Rehnquist, in financing. Lien to Vincent paid from buyer loan funding at closing, so it does not touch GRP cash."
+    "note": "Confirmed PENDING SALE on 9/2, still showing in the listing category in Rent Manager. Price raised to $30,000 on 8/27. Signed purchase agreement from Jessica Rehnquist, in financing. The Vincent lien is paid from buyer loan funding at closing, so it does not touch GRP cash."
    },
    {
     "description": "2015 West 3rd sale",
@@ -328,7 +328,7 @@
     "expected": "After light turn",
     "status": "OPEN",
     "amount": 22000,
-    "note": "Range $19,000 to $25,000."
+    "note": "Range $19,000 to $25,000. Trent noted on 8/27 that this one will take a little longer."
    },
    {
     "description": "FS1:20 as-is cash sale",
@@ -337,16 +337,8 @@
     "date_added": "2026-08-03",
     "expected": "Beyond 60 days",
     "status": "OPEN",
-    "amount": 15500
-   },
-   {
-    "description": "CP:20Powerline as-is sale to Mara",
-    "entity": "CP",
-    "bank": "1032 KSB - GRP *4264",
-    "date_added": "2026-08-10",
-    "expected": "Quiet title required",
-    "status": "OPEN",
-    "amount": 10000
+    "amount": 15500,
+    "note": "Bill of sale sent to Beth. Title transfer in process. Listing partially furnished. Trent flagged on 8/27 as further out."
    },
    {
     "description": "RE:35 consignment sale",
@@ -355,7 +347,8 @@
     "date_added": "2026-08-03",
     "expected": "Beyond 60 days",
     "status": "OPEN",
-    "amount": 2000
+    "amount": 2000,
+    "note": "Xochitl working a new Triad contact. Tenant still paying rent. Not counted on in the window."
    },
    {
     "description": "CP:9 Corey, 21st Mortgage payoff",
@@ -404,10 +397,10 @@
     "entity": "FS",
     "bank": "1032 KSB - GRP *4264",
     "date_added": "2026-07-29",
-    "expected": "Q4",
-    "status": "OPEN",
+    "expected": "Started, Q4 completion",
+    "status": "COMMITTED",
     "amount": 15000,
-    "note": "Gilmore bid rejected at $26,000. Reverts to Rico at roughly $15,000, behind FS2:046 and FS2:047."
+    "note": "Started as of 9/2 after a capacity issue was resolved. Gilmore bid was rejected at $26,000; reverting to Rico at roughly $15,000. Completion still expected in Q4."
    },
    {
     "description": "FS1:23 demo",
@@ -417,7 +410,7 @@
     "expected": "Week of 9/11",
     "status": "COMMITTED",
     "amount": 3500,
-    "note": "$3,500 confirmed by Trent on 8/20. To Do Property Cleanup. Bill not yet received. Hard city deadline Sep 10."
+    "note": "Demo is complete. To Do Property Cleanup sent the invoice to Beth on 8/26, after the submittal cutoff, so it lands on the following run. $3,500 confirmed by Trent on 8/20."
    },
    {
     "description": "CP:9 Corey, 21st Mortgage payoff",
@@ -428,6 +421,16 @@
     "status": "OPEN",
     "amount": 37640.38,
     "note": "Payoff $37,640.38 good through 9/30/26. Precedes the tenant owned home conversion. No funding source or date decided, so it is excluded from the forecast."
+   },
+   {
+    "description": "FS2:046 and FS2:047 rehab, Rico",
+    "entity": "FS",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-09-02",
+    "expected": "Mid September start",
+    "status": "OPEN",
+    "amount": null,
+    "note": "Rico's next start after 44 Waterway. Mid September is the start date, not the target completion, so this one is behind. Amount not yet established."
    }
   ]
  },
@@ -651,9 +654,11 @@
   "<strong>Two management fees were reversed in the source file.</strong> RMF was entered at $5,235.60 and Winterwood at $703.80, against a history of roughly $800 for RMF and $5,000 for Winterwood. Corrected to RMF $703.80 and Winterwood $5,235.60. Total fees and the GRP deposit are unchanged; the correction moves $4,532 of pressure from RMF onto Winterwood.",
   "<strong>Three entities finish thin.</strong> Group Group sits at $85 for the third straight week with no bills and no deposits. Riverside projects to $2,237 after $3,600 of Whitley tree removal, its second Whitley bill in three weeks totalling $8,100. Winterwood projects to $2,471 after $11,911, the heaviest run of any entity this week.",
   "<strong>The forecast no longer goes short</strong>, bottoming at $15,304 on 10/30. The change is WW:6D, which now carries a confirmed sale price of $36,500 and lands the week of 9/18. Net of the $7,000 Vincent lien it puts roughly $30,000 into GRP. Without that closing the last three weeks of October run negative, so the whole October picture rests on one sale.",
-  "<strong>Trent directed that the WW:6D proceeds retire the 2125 Patricia floor plan note</strong> rather than waiting for that home to sell, because PEP is slow returning titles. The note is $29,903 due November 29 against a $36,500 closing, so the sequencing works if 6D closes on time.",
+  "<strong>Trent directed that the WW:6D proceeds retire the 2125 Patricia floor plan note</strong> rather than waiting for that home to sell, because PEP takes two to four months to return a title. The note is $29,903 due November 29 against a $36,500 closing, so the sequencing works if 6D closes on time.",
   "<strong>PEP exposure resolved in three of four cases this week.</strong> WW:11A is saved and off the board; the couple are staying and GRP is billing the roof and repairs back at $50 a month. Brian Miller at WW:6B is current with PEP and off the board. What remains is <strong>DA: 54, Melissa Harris, 61 days delinquent at a $30,842 payoff, which will be bought back and placed on floor plan.</strong> That takes floor plan from one home to two and roughly $60,700 total. RE: 11 at $3,184 and CP: 77 JPL at $47,512 are delinquent but monitoring only. Total PEP payoff across the portfolio is $1.4 million, down from a little over $2 million at the start.",
-  "<strong>The 9 Corey payoff is $37,640.38, good through 9/30/26.</strong> Beth requested it from 21st Mortgage on 9/2. It precedes the tenant owned home conversion. No funding source or date has been decided, so it is on the watchlist as Open and excluded from the forecast. If it is funded before month end it is the largest single discretionary outflow in the window."
+  "<strong>The 9 Corey payoff is $37,640.38, good through 9/30/26.</strong> Beth requested it from 21st Mortgage on 9/2. It precedes the tenant owned home conversion. No funding source or date has been decided, so it is on the watchlist as Open and excluded from the forecast. If it is funded before month end it is the largest single discretionary outflow in the window.",
+  "<strong>Two watchlist decisions from the 8/27 review.</strong> 20 Powerline comes off the income side entirely; Mara offered $1,000 rather than the $10,000 carried, the home is full of fleas, roaches and bedbugs, and Justin asked that it be taken out of projected cash flow because he is not counting on it selling. FS2:056 was raised from $25,000 to $30,000. The FS1:23 demo is complete and the $3,500 invoice reached Beth on 8/26, after the submittal cutoff, so it lands on next week's run.",
+  "<strong>Three make ready items moved on 9/2.</strong> FS2:034 has started after the capacity issue was resolved and reverts to Rico at roughly $15,000 rather than the $26,000 Gilmore bid. FS1:15 is repaired and becomes Dalton's next rehab. FS2:046 and FS2:047 are Rico's next start at mid September, which is a start date rather than a completion target, so that pair is behind. 20 Powerline is confirmed as a rehabber sale and is off the income board entirely."
  ],
  "for_ownership": {
   "label": "Projected end-of-week cash",
