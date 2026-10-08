@@ -281,17 +281,6 @@
  "watchlist": {
   "income": [
    {
-    "description": "Vincent funding, two Four Seasons homes",
-    "entity": "FS",
-    "bank": "1032 KSB - GRP *4264",
-    "date_added": "2026-09-24",
-    "expected": "~2 weeks",
-    "status": "COMMITTED",
-    "amount": null,
-    "lien": null,
-    "note": "Delayed by a miscommunication: Beth asked Vincent to hold off on funding and he held off on the flood zone verification as well. Working with Lisa to restart it. Even with the flood certificate, underwriting still has to complete its own due diligence. Amount not yet established."
-   },
-   {
     "description": "44 Waterway sale",
     "entity": "CP",
     "bank": "1032 KSB - GRP *4264",
