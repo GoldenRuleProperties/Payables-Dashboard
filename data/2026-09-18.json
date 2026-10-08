@@ -1,0 +1,420 @@
+{
+ "meta": {
+  "week_ending": "2026-09-18",
+  "prepared_by": "Beth Dandini",
+  "historical": false
+ },
+ "entities": [
+  {
+   "name": "Country Aire",
+   "code": "CA",
+   "bank_balance": 14155.95,
+   "available": 7296.26,
+   "payments": 250.0,
+   "deposits": 0.0,
+   "projected": 7046.26
+  },
+  {
+   "name": "Countryside",
+   "code": "CP",
+   "bank_balance": 58007.85,
+   "available": 66276.85,
+   "payments": 2388.3,
+   "deposits": 0.0,
+   "projected": 63888.55
+  },
+  {
+   "name": "Decade Acres",
+   "code": "DA",
+   "bank_balance": 9236.24,
+   "available": 9236.24,
+   "payments": 0.0,
+   "deposits": 0.0,
+   "projected": 9236.24
+  },
+  {
+   "name": "Four Seasons",
+   "code": "FS",
+   "bank_balance": 21653.93,
+   "available": 21653.93,
+   "payments": 3025.0,
+   "deposits": 0.0,
+   "projected": 18628.93
+  },
+  {
+   "name": "Golden Rule Practices",
+   "code": "GRP",
+   "bank_balance": 27633.66,
+   "available": 24433.66,
+   "payments": 11140.69,
+   "deposits": 0.0,
+   "projected": 13292.97
+  },
+  {
+   "name": "Group Group",
+   "code": "GG",
+   "bank_balance": 85.18,
+   "available": 85.18,
+   "payments": 0.0,
+   "deposits": 0.0,
+   "projected": 85.18
+  },
+  {
+   "name": "Riverside Estates",
+   "code": "RE",
+   "bank_balance": 12172.23,
+   "available": 10872.23,
+   "payments": 1650.0,
+   "deposits": 0.0,
+   "projected": 9222.23
+  },
+  {
+   "name": "RMF",
+   "code": "RMF",
+   "bank_balance": 6199.42,
+   "available": 6199.42,
+   "payments": 1000.0,
+   "deposits": 0.0,
+   "projected": 5199.42
+  },
+  {
+   "name": "Winterwood",
+   "code": "WW",
+   "bank_balance": 19110.54,
+   "available": 19110.54,
+   "payments": 80.0,
+   "deposits": 0.0,
+   "projected": 19030.54
+  }
+ ],
+ "payables": [
+  {
+   "vendor": "Lawn & Order JC",
+   "amount": 825.0,
+   "memo": "Mowing",
+   "entity": "FS",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Lawn & Order JC",
+   "amount": 850.0,
+   "memo": "Mowing",
+   "entity": "FS",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Jeff House",
+   "amount": 80.0,
+   "memo": "Landscaping",
+   "entity": "WW",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Clayton Evans",
+   "amount": 560.0,
+   "memo": "WW: 5E",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Kodey Gilpin",
+   "amount": 945.0,
+   "memo": "WW: 5E",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Rico's Quallity Painting",
+   "amount": 7100.0,
+   "memo": "CP: 44 Waterway Labor",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Cat Can's",
+   "amount": 294.15,
+   "memo": "CP: 26 Waterway",
+   "entity": "CP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Cat Can's",
+   "amount": 294.15,
+   "memo": "CP: 32 Waterway",
+   "entity": "CP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Dalton Osborne",
+   "amount": 1000.0,
+   "memo": "Penn Bottom & Grattan",
+   "entity": "RMF",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Brockman Lawn Care",
+   "amount": 1800.0,
+   "memo": "CP August Mowing",
+   "entity": "CP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Brockman Lawn Care",
+   "amount": 1650.0,
+   "memo": "RE August Mowing",
+   "entity": "RE",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Brockman Lawn Care",
+   "amount": 1350.0,
+   "memo": "FS August Mowing",
+   "entity": "FS",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Best Pest Control of Manhattan llc",
+   "amount": 329.25,
+   "memo": "FS2: 040",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Bookkeeping By Beth",
+   "amount": 1266.44,
+   "memo": "45.23 Hours",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": true
+  },
+  {
+   "vendor": "Chevo",
+   "amount": 940.0,
+   "memo": "Verify Hours",
+   "entity": "GRP",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  },
+  {
+   "vendor": "Genesis Lawn",
+   "amount": 250.0,
+   "memo": "CA Landscaping",
+   "entity": "CA",
+   "status": "approved",
+   "intercompany": false,
+   "overhead": false
+  }
+ ],
+ "watchlist": {
+  "income": [
+   {
+    "description": "WW:3G closing, Bradley Berry via Triad",
+    "entity": "WW",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-03",
+    "expected": "Week of 9/18",
+    "status": "COMMITTED",
+    "amount": 2000,
+    "note": "Carried three weeks. One document outstanding from Bradley Berry, then closes autonomously through Triad.",
+    "lien": null
+   },
+   {
+    "description": "2125 Patricia listed",
+    "entity": "CP",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-10",
+    "expected": "No date",
+    "status": "OPEN",
+    "amount": 35000,
+    "note": "Listed at $35,000. The $27,687.48 lien is the PEP promissory note itself, due November 29, so the sale retires the floor plan rather than paying a separate lienholder. Net to GRP is roughly $7,300.",
+    "lien": 27687.48
+   },
+   {
+    "description": "FS2:056 sale",
+    "entity": "FS",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-03",
+    "expected": "Week of 9/25",
+    "status": "COMMITTED",
+    "amount": 30000,
+    "note": "Pending sale, in financing with Jessica Rehnquist. Lien of $19,734.17 to Vincent is paid from buyer loan funding at closing, so GRP receives the net rather than paying the lien out of pocket.",
+    "lien": 19734.17
+   },
+   {
+    "description": "2015 West 3rd sale",
+    "entity": "CP",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-10",
+    "expected": "Listed",
+    "status": "OPEN",
+    "amount": 22000,
+    "note": "Rehab completed with punch list on 9/16 and the home is now listed. Not in the Home Tracker yet, so no lien is recorded.",
+    "lien": null
+   },
+   {
+    "description": "FS1:20 as-is cash sale",
+    "entity": "FS",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-03",
+    "expected": "Beyond 60 days",
+    "status": "OPEN",
+    "amount": 15500,
+    "note": "Bill of sale sent to Beth. Title transfer in process. Listing partially furnished. Trent flagged on 8/27 as further out.",
+    "lien": null
+   },
+   {
+    "description": "RE:35 consignment sale",
+    "entity": "RE",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-03",
+    "expected": "Beyond 60 days",
+    "status": "OPEN",
+    "amount": 2000,
+    "note": "Xochitl working a new Triad contact. Tenant still paying rent. Not counted on in the window.",
+    "lien": null
+   }
+  ],
+  "expenses": [
+   {
+    "description": "GRP credit card, auto draft",
+    "entity": "GRP",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-09-10",
+    "expected": "Sep 26",
+    "status": "COMMITTED",
+    "amount": 38626.6,
+    "note": "Auto drafts 9/26 and cannot be held. Raised by Beth on 9/10; Trent directed that the WW:6D closing proceeds be retained in GRP to cover it rather than paying off the 2125 Patricia floor plan note as previously planned. His words were to hold on to as much of that as we can."
+   },
+   {
+    "description": "WW:25A make ready",
+    "entity": "WW",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-08-28",
+    "expected": "In progress",
+    "status": "OPEN",
+    "amount": null,
+    "note": "$1,829 paid through GRP to date across Clayton Evans, Kodey Gilpin and Joshuah Muse, with further WW:5E labor on the 9/18 run. Total scope still not established."
+   },
+   {
+    "description": "FS2:034 rehab, Rico",
+    "entity": "FS",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-07-29",
+    "expected": "Q4",
+    "status": "COMMITTED",
+    "amount": 15000,
+    "note": "Started as of 9/2 after a capacity issue was resolved. Gilmore bid was rejected at $26,000; reverting to Rico at roughly $15,000. Completion still expected in Q4."
+   },
+   {
+    "description": "FS2:046 and FS2:047 rehab, Rico",
+    "entity": "FS",
+    "bank": "1032 KSB - GRP *4264",
+    "date_added": "2026-09-02",
+    "expected": "Mid September start",
+    "status": "OPEN",
+    "amount": null,
+    "note": "Rico moves here now that 44 Waterway is complete. Mid September was the start date, not the completion target."
+   }
+  ]
+ },
+ "pep_buybacks": {
+  "floor_plan": [
+   {
+    "home": "2125 Patricia",
+    "entity": "CP",
+    "due": "Nov 29, 2026",
+    "status": "ON FLOOR PLAN",
+    "payoff": 29903,
+    "note": "Swearingen buyback. Promissory note dated 5/29/26, principal $27,687.48 at 16 percent, six month term, prepayable without penalty. Payoff shown includes accrued interest. Home listed 8/10 at $35,000; a sale before the repayment date retires the note and nets GRP roughly $5,100."
+   },
+   {
+    "home": "DA: 54 (Melissa Harris)",
+    "entity": "DA",
+    "due": "On buyback",
+    "status": "BUYBACK PENDING",
+    "payoff": 30842.02,
+    "note": "PEP loan 76499, borrower Melissa Harris, 61 days delinquent, payoff $30,842.02. Buyback confirmed as going to happen; will be placed on floor plan. No date set, so it is not in the forecast."
+   }
+  ],
+  "exposure": [
+   {
+    "home": "WW:6B Brian Miller",
+    "entity": "WW",
+    "trigger": "Blocked GRP numbers, moving to eviction",
+    "status": "POTENTIAL",
+    "payoff": null,
+    "note": "Reversed again. He blocked GRP's phone numbers and is going to eviction as of 9/16. Justin told PEP he is past due with GRP and they will take whatever steps they see fit. On 9/3 he had said he was keeping the home and getting current."
+   },
+   {
+    "home": "RE: 11 (Junell M Wallin-Ten Eyck)",
+    "entity": "RE",
+    "trigger": "36 days delinquent with PEP",
+    "status": "MONITORING",
+    "payoff": 3184.39,
+    "note": "PEP loan 6359. Nearly paid off. Not a buyback concern; monitoring only."
+   },
+   {
+    "home": "CP: 77 JPL (Andrew Buchmeier)",
+    "entity": "CP",
+    "trigger": "35 days delinquent with PEP",
+    "status": "MONITORING",
+    "payoff": 47511.91,
+    "note": "PEP loan 75029. Largest delinquent balance on the roster. Monitoring."
+   }
+  ],
+  "portfolio": {
+   "total_payoff": 1400000,
+   "note": "Total PEP payoff across the portfolio is $1.4 million as of 9/2, down from a little over $2 million at the start, through buybacks and not adding new loans. Seven Winterwood homes carry roughly $350,000 of that, with three close to $60,000 each."
+  }
+ },
+ "forecast_table": null,
+ "budget_vs_actual": null,
+ "monthly_outlook": null,
+ "other_obligations": null,
+ "home_obligations": null,
+ "cfo_summary": [
+  "<strong>Total available cash is $165,164</strong> against a true bank balance of $168,255. After <strong>$19,534 in external payments</strong> and no intercompany transfers, projected end of week is <strong>$145,630</strong>. Sixteen bills, all approved.",
+  "<strong>GRP is fully recovered.</strong> Available moved from negative $19,775 to positive $24,434 with the WW:6D closing, the transfers agreed on 9/10 and a further $9,000 from Countryside this week. It projects to $13,293 after $11,141 of bills, of which $7,100 is Rico's 44 Waterway labor. That ends five negative weeks out of thirteen.",
+  "<strong>The GRP credit card of $38,626.60 auto drafts on 9/26.</strong> It cannot be held. Trent directed on 9/10 that the WW:6D proceeds be retained in GRP to cover it rather than paying off the 2125 Patricia floor plan note as previously planned. GRP projects to $13,293 this week, so it is roughly $25,300 short on the card with the draft nine days out.",
+  "<strong>Liens are now embedded in the watchlist.</strong> The Home Tracker carries thirteen lien amounts as of 9/9, and the income table shows sale price, lien and net. Gross pipeline is $106,500 against $47,422 of liens, so the realistic figure is $59,078. FS2:056 nets $10,266 rather than $30,000, and 2125 Patricia nets $7,313 because its $27,687 lien is the PEP note itself.",
+  "<strong>The forecast goes short $5,018 the week of 10/30</strong>, the week before November rent. Every other week stays positive. The credit card is the single largest movement in the window and 10/16 falls to $5,383 as mortgage interest and the Group Group distribution land together.",
+  "<strong>Group Group has been at $85 for five straight weeks.</strong> Distributions to it usually run week three, so a September distribution would be due now. Nothing on this week's run moves it.",
+  "<strong>Make ready cleared two homes this week.</strong> 44 Waterway is complete, Rico's $7,100 is on this run, and Xochitl already has a buyer lined up. 2015 West 3rd is complete with punch list and now listed. Rico moves to FS2:046 and FS2:047 next.",
+  "<strong>Brian Miller at WW:6B has reversed again.</strong> He blocked GRP's phone numbers and is going to eviction as of 9/16, after telling Justin on 9/3 that he was keeping the home and getting current. Justin has notified PEP that he is past due with GRP. PEP floor plan remains two homes at $60,745."
+ ],
+ "for_ownership": {
+  "label": "Projected end-of-week cash",
+  "number": 145630.32,
+  "paragraph": "We close this week at roughly $145,600 available across all accounts, the strongest position of the year. Golden Rule Practices is back in the black after the Winterwood 6D home closed and the transfers we agreed last week. The item to watch is the company credit card of $38,600, which drafts automatically on the 26th and cannot be delayed, so we are holding the 6D proceeds to cover it. The home sales board now shows the loan payoff against each home alongside the sale price, which gives a truer picture: about $106,500 in listings carries $47,400 in liens, so roughly $59,000 actually reaches us. Looking out sixty days the only short week is the end of October, just before November rent."
+ },
+ "forecast": [],
+ "recap_notes": []
+}
